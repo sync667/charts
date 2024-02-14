@@ -58,7 +58,7 @@ jobs:
           git commit -m "Add changes" -a
 
       - name: Push changes
-        uses: ad-m/github-push-action@19caa5c351f47734055690f7d01aaaef2f9114d5
+        uses: ad-m/github-push-action@fcea09907c44d7a7a3331c9c04080d55d87c95fe
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
