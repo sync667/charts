@@ -38,35 +38,6 @@ nginx:
 
 Snuba only supports a UTC timezone for Clickhouse. Please keep the initial value!
 
-## Upgrading from 3.1.0 version of this Chart to 4.0.0
-
-Following Helm Chart best practices the new version introduces some breaking changes, all configuration for external
-resources moved to separate config branches: `externalClickhouse`, `externalKafka`, `externalRedis`, `externalPostgresql`.
-
-Here is a mapping table of old values and new values:
-
-| Before                          | After                         |
-| ------------------------------- | ----------------------------- |
-| `postgresql.postgresqlHost`     | `externalPostgresql.host`     |
-| `postgresql.postgresqlPort`     | `externalPostgresql.port`     |
-| `postgresql.postgresqlUsername` | `externalPostgresql.username` |
-| `postgresql.postgresqlPassword` | `externalPostgresql.password` |
-| `postgresql.postgresqlDatabase` | `externalPostgresql.database` |
-| `postgresql.postgresSslMode`    | `externalPostgresql.sslMode`  |
-| `redis.host`                    | `externalRedis.host`          |
-| `redis.port`                    | `externalRedis.port`          |
-| `redis.password`                | `externalRedis.password`      |
-
-## Upgrading from deprecated 9.0 -> 10.0 Chart
-
-As this chart runs in helm 3 and also tries its best to follow on from the original Sentry chart. There are some steps that needs to be taken in order to correctly upgrade.
-
-From the previous upgrade, make sure to get the following from your previous installation:
-
-- Redis Password (If Redis auth was enabled)
-- PostgreSQL Password
-  Both should be in the `secrets` of your original 9.0 release. Make a note of both of these values.
-
 #### Upgrade Steps
 
 Due to an issue where transferring from Helm 2 to 3. Statefulsets that use the following: `heritage: {{ .Release.Service }}` in the metadata field will error out with a `Forbidden` error during the upgrade. The only workaround is to delete the existing statefulsets (Don't worry, PVC will be retained):
