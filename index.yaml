@@ -3,7 +3,7 @@ entries:
   clickhouse:
   - apiVersion: v1
     appVersion: "19.14"
-    created: "2024-02-14T16:43:58.458747269Z"
+    created: "2024-02-24T20:28:34.13635755Z"
     description: ClickHouse is an open source column-oriented database management
       system capable of real time generation of analytical data reports using SQL
       queries
@@ -20,11 +20,11 @@ entries:
     sources:
     - https://github.com/sentry-kubernetes/charts
     urls:
-    - https://sentry-kubernetes.github.io/charts/clickhouse-3.7.0.tgz
+    - https://sync667.github.io/charts/clickhouse-3.7.0.tgz
     version: 3.7.0
   - apiVersion: v1
     appVersion: "19.14"
-    created: "2024-02-14T16:43:58.45761096Z"
+    created: "2024-02-24T20:28:34.135180225Z"
     description: ClickHouse is an open source column-oriented database management
       system capable of real time generation of analytical data reports using SQL
       queries
@@ -41,11 +41,11 @@ entries:
     sources:
     - https://github.com/sentry-kubernetes/charts
     urls:
-    - https://sentry-kubernetes.github.io/charts/clickhouse-3.6.1.tgz
+    - https://sync667.github.io/charts/clickhouse-3.6.1.tgz
     version: 3.6.1
   - apiVersion: v1
     appVersion: "19.14"
-    created: "2024-02-14T16:43:58.456519093Z"
+    created: "2024-02-24T20:28:34.134080926Z"
     description: ClickHouse is an open source column-oriented database management
       system capable of real time generation of analytical data reports using SQL
       queries
@@ -62,11 +62,11 @@ entries:
     sources:
     - https://github.com/sentry-kubernetes/charts
     urls:
-    - https://sentry-kubernetes.github.io/charts/clickhouse-3.6.0.tgz
+    - https://sync667.github.io/charts/clickhouse-3.6.0.tgz
     version: 3.6.0
   - apiVersion: v1
     appVersion: "19.14"
-    created: "2024-02-14T16:43:58.455405476Z"
+    created: "2024-02-24T20:28:34.132955207Z"
     description: ClickHouse is an open source column-oriented database management
       system capable of real time generation of analytical data reports using SQL
       queries
@@ -83,11 +83,11 @@ entries:
     sources:
     - https://github.com/sentry-kubernetes/charts
     urls:
-    - https://sentry-kubernetes.github.io/charts/clickhouse-3.5.0.tgz
+    - https://sync667.github.io/charts/clickhouse-3.5.0.tgz
     version: 3.5.0
   - apiVersion: v1
     appVersion: "19.14"
-    created: "2024-02-14T16:43:58.453536318Z"
+    created: "2024-02-24T20:28:34.13174453Z"
     description: ClickHouse is an open source column-oriented database management
       system capable of real time generation of analytical data reports using SQL
       queries
@@ -104,11 +104,11 @@ entries:
     sources:
     - https://github.com/sentry-kubernetes/charts
     urls:
-    - https://sentry-kubernetes.github.io/charts/clickhouse-3.4.0.tgz
+    - https://sync667.github.io/charts/clickhouse-3.4.0.tgz
     version: 3.4.0
   - apiVersion: v1
     appVersion: "19.14"
-    created: "2024-02-14T16:43:58.452466483Z"
+    created: "2024-02-24T20:28:34.12977203Z"
     description: ClickHouse is an open source column-oriented database management
       system capable of real time generation of analytical data reports using SQL
       queries
@@ -125,11 +125,11 @@ entries:
     sources:
     - https://github.com/sentry-kubernetes/charts
     urls:
-    - https://sentry-kubernetes.github.io/charts/clickhouse-3.3.0.tgz
+    - https://sync667.github.io/charts/clickhouse-3.3.0.tgz
     version: 3.3.0
   - apiVersion: v1
     appVersion: "19.14"
-    created: "2024-02-14T16:43:58.451387471Z"
+    created: "2024-02-24T20:28:34.128655709Z"
     description: ClickHouse is an open source column-oriented database management
       system capable of real time generation of analytical data reports using SQL
       queries
@@ -146,11 +146,11 @@ entries:
     sources:
     - https://github.com/sentry-kubernetes/charts
     urls:
-    - https://sentry-kubernetes.github.io/charts/clickhouse-3.2.1.tgz
+    - https://sync667.github.io/charts/clickhouse-3.2.1.tgz
     version: 3.2.1
   - apiVersion: v1
     appVersion: "19.14"
-    created: "2024-02-14T16:43:58.450278843Z"
+    created: "2024-02-24T20:28:34.127492601Z"
     description: ClickHouse is an open source column-oriented database management
       system capable of real time generation of analytical data reports using SQL
       queries
@@ -167,11 +167,11 @@ entries:
     sources:
     - https://github.com/sentry-kubernetes/charts
     urls:
-    - https://sentry-kubernetes.github.io/charts/clickhouse-3.2.0.tgz
+    - https://sync667.github.io/charts/clickhouse-3.2.0.tgz
     version: 3.2.0
   - apiVersion: v1
     appVersion: "19.14"
-    created: "2024-02-14T16:43:58.449179443Z"
+    created: "2024-02-24T20:28:34.126394723Z"
     description: ClickHouse is an open source column-oriented database management
       system capable of real time generation of analytical data reports using SQL
       queries
@@ -188,11 +188,11 @@ entries:
     sources:
     - https://github.com/sentry-kubernetes/charts
     urls:
-    - https://sentry-kubernetes.github.io/charts/clickhouse-3.1.3.tgz
+    - https://sync667.github.io/charts/clickhouse-3.1.3.tgz
     version: 3.1.3
   - apiVersion: v1
     appVersion: "19.14"
-    created: "2024-02-14T16:43:58.447857856Z"
+    created: "2024-02-24T20:28:34.125291417Z"
     description: ClickHouse is an open source column-oriented database management
       system capable of real time generation of analytical data reports using SQL
       queries
@@ -209,11 +209,11 @@ entries:
     sources:
     - https://github.com/sentry-kubernetes/charts
     urls:
-    - https://sentry-kubernetes.github.io/charts/clickhouse-3.1.2.tgz
+    - https://sync667.github.io/charts/clickhouse-3.1.2.tgz
     version: 3.1.2
   - apiVersion: v1
     appVersion: "19.14"
-    created: "2024-02-14T16:43:58.446262656Z"
+    created: "2024-02-24T20:28:34.12300562Z"
     description: ClickHouse is an open source column-oriented database management
       system capable of real time generation of analytical data reports using SQL
       queries
@@ -228,11 +228,11 @@ entries:
     sources:
     - https://github.com/sentry-kubernetes/charts
     urls:
-    - https://sentry-kubernetes.github.io/charts/clickhouse-3.1.1.tgz
+    - https://sync667.github.io/charts/clickhouse-3.1.1.tgz
     version: 3.1.1
   - apiVersion: v1
     appVersion: "19.14"
-    created: "2024-02-14T16:43:58.445156313Z"
+    created: "2024-02-24T20:28:34.121932479Z"
     description: ClickHouse is an open source column-oriented database management
       system capable of real time generation of analytical data reports using SQL
       queries
@@ -247,11 +247,11 @@ entries:
     sources:
     - https://github.com/sentry-kubernetes/charts
     urls:
-    - https://sentry-kubernetes.github.io/charts/clickhouse-3.1.0.tgz
+    - https://sync667.github.io/charts/clickhouse-3.1.0.tgz
     version: 3.1.0
   - apiVersion: v1
     appVersion: "19.14"
-    created: "2024-02-14T16:43:58.444092118Z"
+    created: "2024-02-24T20:28:34.120840253Z"
     description: ClickHouse is an open source column-oriented database management
       system capable of real time generation of analytical data reports using SQL
       queries
@@ -266,11 +266,11 @@ entries:
     sources:
     - https://github.com/sentry-kubernetes/charts
     urls:
-    - https://sentry-kubernetes.github.io/charts/clickhouse-3.0.0.tgz
+    - https://sync667.github.io/charts/clickhouse-3.0.0.tgz
     version: 3.0.0
   - apiVersion: v1
     appVersion: "19.14"
-    created: "2024-02-14T16:43:58.442998058Z"
+    created: "2024-02-24T20:28:34.119740402Z"
     description: ClickHouse is an open source column-oriented database management
       system capable of real time generation of analytical data reports using SQL
       queries
@@ -285,11 +285,11 @@ entries:
     sources:
     - https://github.com/sentry-kubernetes/charts
     urls:
-    - https://sentry-kubernetes.github.io/charts/clickhouse-2.0.0.tgz
+    - https://sync667.github.io/charts/clickhouse-2.0.0.tgz
     version: 2.0.0
   - apiVersion: v1
     appVersion: "19.14"
-    created: "2024-02-14T16:43:58.441904078Z"
+    created: "2024-02-24T20:28:34.118652273Z"
     description: ClickHouse is an open source column-oriented database management
       system capable of real time generation of analytical data reports using SQL
       queries
@@ -304,11 +304,11 @@ entries:
     sources:
     - https://github.com/sentry-kubernetes/charts
     urls:
-    - https://sentry-kubernetes.github.io/charts/clickhouse-1.5.0.tgz
+    - https://sync667.github.io/charts/clickhouse-1.5.0.tgz
     version: 1.5.0
   - apiVersion: v1
     appVersion: "19.14"
-    created: "2024-02-14T16:43:58.439584836Z"
+    created: "2024-02-24T20:28:34.116903449Z"
     description: ClickHouse is an open source column-oriented database management
       system capable of real time generation of analytical data reports using SQL
       queries
@@ -323,11 +323,11 @@ entries:
     sources:
     - https://github.com/sentry-kubernetes/charts
     urls:
-    - https://sentry-kubernetes.github.io/charts/clickhouse-1.4.1.tgz
+    - https://sync667.github.io/charts/clickhouse-1.4.1.tgz
     version: 1.4.1
   - apiVersion: v1
     appVersion: "19.14"
-    created: "2024-02-14T16:43:58.438585653Z"
+    created: "2024-02-24T20:28:34.115665982Z"
     description: ClickHouse is an open source column-oriented database management
       system capable of real time generation of analytical data reports using SQL
       queries
@@ -342,11 +342,11 @@ entries:
     sources:
     - https://github.com/sentry-kubernetes/charts
     urls:
-    - https://sentry-kubernetes.github.io/charts/clickhouse-1.4.0.tgz
+    - https://sync667.github.io/charts/clickhouse-1.4.0.tgz
     version: 1.4.0
   - apiVersion: v1
     appVersion: "19.14"
-    created: "2024-02-14T16:43:58.43755953Z"
+    created: "2024-02-24T20:28:34.114604113Z"
     description: ClickHouse is an open source column-oriented database management
       system capable of real time generation of analytical data reports using SQL
       queries
@@ -361,11 +361,11 @@ entries:
     sources:
     - https://github.com/sentry-kubernetes/charts
     urls:
-    - https://sentry-kubernetes.github.io/charts/clickhouse-1.3.0.tgz
+    - https://sync667.github.io/charts/clickhouse-1.3.0.tgz
     version: 1.3.0
   - apiVersion: v1
     appVersion: "19.14"
-    created: "2024-02-14T16:43:58.436655165Z"
+    created: "2024-02-24T20:28:34.113597425Z"
     description: ClickHouse is an open source column-oriented database management
       system capable of real time generation of analytical data reports using SQL
       queries
@@ -380,11 +380,11 @@ entries:
     sources:
     - https://github.com/sentry-kubernetes/charts
     urls:
-    - https://sentry-kubernetes.github.io/charts/clickhouse-1.2.2.tgz
+    - https://sync667.github.io/charts/clickhouse-1.2.2.tgz
     version: 1.2.2
   - apiVersion: v1
     appVersion: "19.14"
-    created: "2024-02-14T16:43:58.435690968Z"
+    created: "2024-02-24T20:28:34.112680726Z"
     description: ClickHouse is an open source column-oriented database management
       system capable of real time generation of analytical data reports using SQL
       queries
@@ -399,11 +399,11 @@ entries:
     sources:
     - https://github.com/sentry-kubernetes/charts
     urls:
-    - https://sentry-kubernetes.github.io/charts/clickhouse-1.2.1.tgz
+    - https://sync667.github.io/charts/clickhouse-1.2.1.tgz
     version: 1.2.1
   - apiVersion: v1
     appVersion: "19.14"
-    created: "2024-02-14T16:43:58.434717644Z"
+    created: "2024-02-24T20:28:34.111733019Z"
     description: ClickHouse is an open source column-oriented database management
       system capable of real time generation of analytical data reports using SQL
       queries
@@ -418,11 +418,11 @@ entries:
     sources:
     - https://github.com/sentry-kubernetes/charts
     urls:
-    - https://sentry-kubernetes.github.io/charts/clickhouse-1.2.0.tgz
+    - https://sync667.github.io/charts/clickhouse-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v1
     appVersion: "19.14"
-    created: "2024-02-14T16:43:58.432901701Z"
+    created: "2024-02-24T20:28:34.109573844Z"
     description: ClickHouse is an open source column-oriented database management
       system capable of real time generation of analytical data reports using SQL
       queries
@@ -437,11 +437,11 @@ entries:
     sources:
     - https://github.com/sentry-kubernetes/charts
     urls:
-    - https://sentry-kubernetes.github.io/charts/clickhouse-1.1.0.tgz
+    - https://sync667.github.io/charts/clickhouse-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
     appVersion: "19.14"
-    created: "2024-02-14T16:43:58.432053662Z"
+    created: "2024-02-24T20:28:34.108399645Z"
     description: ClickHouse is an open source column-oriented database management
       system capable of real time generation of analytical data reports using SQL
       queries
@@ -456,11 +456,11 @@ entries:
     sources:
     - https://github.com/sentry-kubernetes/charts
     urls:
-    - https://sentry-kubernetes.github.io/charts/clickhouse-1.0.1.tgz
+    - https://sync667.github.io/charts/clickhouse-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v1
     appVersion: "19.14"
-    created: "2024-02-14T16:43:58.431178151Z"
+    created: "2024-02-24T20:28:34.107208995Z"
     description: ClickHouse is an open source column-oriented database management
       system capable of real time generation of analytical data reports using SQL
       queries
@@ -475,12 +475,12 @@ entries:
     sources:
     - https://github.com/sentry-kubernetes/charts
     urls:
-    - https://sentry-kubernetes.github.io/charts/clickhouse-1.0.0.tgz
+    - https://sync667.github.io/charts/clickhouse-1.0.0.tgz
     version: 1.0.0
   sentry:
   - apiVersion: v2
     appVersion: 24.1.2
-    created: "2024-02-14T16:44:02.516793567Z"
+    created: "2024-02-24T20:28:37.99145505Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -516,17 +516,17 @@ entries:
       repository: oci://registry-1.docker.io/bitnamicharts
       version: 14.2.2
     description: A Helm chart for Kubernetes
-    digest: 3181817c293aca723e9c8d04e7fecef9f6ea8cd2322cce9d3ae089fbcb0da849
+    digest: 2316aee59082ca8c71902b4ca26ffd8a5ac9a01735d57db8a48cce0cf6d996fd
     maintainers:
     - name: sentry-kubernetes
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-21.5.0.tgz
+    - https://sync667.github.io/charts/sentry-21.5.0.tgz
     version: 21.5.0
   - apiVersion: v2
     appVersion: 24.1.2
-    created: "2024-02-14T16:44:02.481244635Z"
+    created: "2024-02-24T20:28:37.956413229Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -568,11 +568,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-21.4.1.tgz
+    - https://sync667.github.io/charts/sentry-21.4.1.tgz
     version: 21.4.1
   - apiVersion: v2
     appVersion: 24.1.2
-    created: "2024-02-14T16:44:02.446223649Z"
+    created: "2024-02-24T20:28:37.921445819Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -614,11 +614,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-21.4.0.tgz
+    - https://sync667.github.io/charts/sentry-21.4.0.tgz
     version: 21.4.0
   - apiVersion: v2
     appVersion: 24.1.2
-    created: "2024-02-14T16:44:02.411878993Z"
+    created: "2024-02-24T20:28:37.886393744Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -660,11 +660,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-21.3.3.tgz
+    - https://sync667.github.io/charts/sentry-21.3.3.tgz
     version: 21.3.3
   - apiVersion: v2
     appVersion: 24.1.1
-    created: "2024-02-14T16:44:02.377508468Z"
+    created: "2024-02-24T20:28:37.85053319Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -706,11 +706,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-21.3.2.tgz
+    - https://sync667.github.io/charts/sentry-21.3.2.tgz
     version: 21.3.2
   - apiVersion: v2
     appVersion: 24.1.1
-    created: "2024-02-14T16:44:02.343059852Z"
+    created: "2024-02-24T20:28:37.815981456Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -752,11 +752,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-21.3.1.tgz
+    - https://sync667.github.io/charts/sentry-21.3.1.tgz
     version: 21.3.1
   - apiVersion: v2
     appVersion: 24.1.1
-    created: "2024-02-14T16:44:02.307898236Z"
+    created: "2024-02-24T20:28:37.781163848Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -798,11 +798,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-21.3.0.tgz
+    - https://sync667.github.io/charts/sentry-21.3.0.tgz
     version: 21.3.0
   - apiVersion: v2
     appVersion: 24.1.1
-    created: "2024-02-14T16:44:02.272245453Z"
+    created: "2024-02-24T20:28:37.745893817Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -844,11 +844,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-21.2.0.tgz
+    - https://sync667.github.io/charts/sentry-21.2.0.tgz
     version: 21.2.0
   - apiVersion: v2
     appVersion: 23.11.2
-    created: "2024-02-14T16:44:02.23747132Z"
+    created: "2024-02-24T20:28:37.710235268Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -890,11 +890,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-21.1.0.tgz
+    - https://sync667.github.io/charts/sentry-21.1.0.tgz
     version: 21.1.0
   - apiVersion: v2
     appVersion: 23.11.2
-    created: "2024-02-14T16:44:02.202913396Z"
+    created: "2024-02-24T20:28:37.675773304Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -936,11 +936,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-21.0.0.tgz
+    - https://sync667.github.io/charts/sentry-21.0.0.tgz
     version: 21.0.0
   - apiVersion: v2
     appVersion: 23.11.2
-    created: "2024-02-14T16:44:01.410698395Z"
+    created: "2024-02-24T20:28:36.875226772Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -982,11 +982,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.12.2.tgz
+    - https://sync667.github.io/charts/sentry-20.12.2.tgz
     version: 20.12.2
   - apiVersion: v2
     appVersion: 23.11.0
-    created: "2024-02-14T16:44:01.376001027Z"
+    created: "2024-02-24T20:28:36.840180234Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -1028,11 +1028,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.12.1.tgz
+    - https://sync667.github.io/charts/sentry-20.12.1.tgz
     version: 20.12.1
   - apiVersion: v2
     appVersion: 23.11.0
-    created: "2024-02-14T16:44:01.340985255Z"
+    created: "2024-02-24T20:28:36.805138823Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -1074,11 +1074,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.12.0.tgz
+    - https://sync667.github.io/charts/sentry-20.12.0.tgz
     version: 20.12.0
   - apiVersion: v2
     appVersion: 23.11.0
-    created: "2024-02-14T16:44:01.305860189Z"
+    created: "2024-02-24T20:28:36.770634425Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -1120,11 +1120,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.11.0.tgz
+    - https://sync667.github.io/charts/sentry-20.11.0.tgz
     version: 20.11.0
   - apiVersion: v2
     appVersion: 23.11.0
-    created: "2024-02-14T16:44:01.270486124Z"
+    created: "2024-02-24T20:28:36.735526897Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -1166,11 +1166,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.10.1.tgz
+    - https://sync667.github.io/charts/sentry-20.10.1.tgz
     version: 20.10.1
   - apiVersion: v2
     appVersion: 23.11.0
-    created: "2024-02-14T16:44:01.236149463Z"
+    created: "2024-02-24T20:28:36.701182764Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -1212,11 +1212,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.10.0.tgz
+    - https://sync667.github.io/charts/sentry-20.10.0.tgz
     version: 20.10.0
   - apiVersion: v2
     appVersion: 23.10.1
-    created: "2024-02-14T16:44:02.168402828Z"
+    created: "2024-02-24T20:28:37.640206819Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -1258,11 +1258,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.9.3.tgz
+    - https://sync667.github.io/charts/sentry-20.9.3.tgz
     version: 20.9.3
   - apiVersion: v2
     appVersion: 23.10.1
-    created: "2024-02-14T16:44:02.133910439Z"
+    created: "2024-02-24T20:28:37.604169653Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -1304,11 +1304,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.9.2.tgz
+    - https://sync667.github.io/charts/sentry-20.9.2.tgz
     version: 20.9.2
   - apiVersion: v2
     appVersion: 23.10.1
-    created: "2024-02-14T16:44:02.098841221Z"
+    created: "2024-02-24T20:28:37.569599627Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -1350,11 +1350,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.9.1.tgz
+    - https://sync667.github.io/charts/sentry-20.9.1.tgz
     version: 20.9.1
   - apiVersion: v2
     appVersion: 23.10.1
-    created: "2024-02-14T16:44:02.064629138Z"
+    created: "2024-02-24T20:28:37.534859057Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -1396,11 +1396,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.9.0.tgz
+    - https://sync667.github.io/charts/sentry-20.9.0.tgz
     version: 20.9.0
   - apiVersion: v2
     appVersion: 23.10.1
-    created: "2024-02-14T16:44:02.02982136Z"
+    created: "2024-02-24T20:28:37.4999408Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -1442,11 +1442,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.8.2.tgz
+    - https://sync667.github.io/charts/sentry-20.8.2.tgz
     version: 20.8.2
   - apiVersion: v2
     appVersion: 23.10.1
-    created: "2024-02-14T16:44:01.995179762Z"
+    created: "2024-02-24T20:28:37.464464814Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -1488,11 +1488,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.8.1.tgz
+    - https://sync667.github.io/charts/sentry-20.8.1.tgz
     version: 20.8.1
   - apiVersion: v2
     appVersion: 23.10.1
-    created: "2024-02-14T16:44:01.95988506Z"
+    created: "2024-02-24T20:28:37.429985026Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -1534,11 +1534,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.8.0.tgz
+    - https://sync667.github.io/charts/sentry-20.8.0.tgz
     version: 20.8.0
   - apiVersion: v2
     appVersion: 23.10.0
-    created: "2024-02-14T16:44:01.925612741Z"
+    created: "2024-02-24T20:28:37.395435695Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -1580,11 +1580,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.7.0.tgz
+    - https://sync667.github.io/charts/sentry-20.7.0.tgz
     version: 20.7.0
   - apiVersion: v2
     appVersion: 23.9.1
-    created: "2024-02-14T16:44:01.891409799Z"
+    created: "2024-02-24T20:28:37.360440658Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -1626,11 +1626,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.6.1.tgz
+    - https://sync667.github.io/charts/sentry-20.6.1.tgz
     version: 20.6.1
   - apiVersion: v2
     appVersion: 23.9.1
-    created: "2024-02-14T16:44:01.856614372Z"
+    created: "2024-02-24T20:28:37.324887828Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -1672,11 +1672,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.6.0.tgz
+    - https://sync667.github.io/charts/sentry-20.6.0.tgz
     version: 20.6.0
   - apiVersion: v2
     appVersion: 23.8.0
-    created: "2024-02-14T16:44:01.821567397Z"
+    created: "2024-02-24T20:28:37.290224525Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -1718,11 +1718,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.5.5.tgz
+    - https://sync667.github.io/charts/sentry-20.5.5.tgz
     version: 20.5.5
   - apiVersion: v2
     appVersion: 23.8.0
-    created: "2024-02-14T16:44:01.787625176Z"
+    created: "2024-02-24T20:28:37.255320138Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -1764,11 +1764,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.5.4.tgz
+    - https://sync667.github.io/charts/sentry-20.5.4.tgz
     version: 20.5.4
   - apiVersion: v2
     appVersion: 23.8.0
-    created: "2024-02-14T16:44:01.753702251Z"
+    created: "2024-02-24T20:28:37.221167097Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -1810,11 +1810,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.5.3.tgz
+    - https://sync667.github.io/charts/sentry-20.5.3.tgz
     version: 20.5.3
   - apiVersion: v2
     appVersion: 23.8.0
-    created: "2024-02-14T16:44:01.718000984Z"
+    created: "2024-02-24T20:28:37.185925012Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -1856,11 +1856,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.5.2.tgz
+    - https://sync667.github.io/charts/sentry-20.5.2.tgz
     version: 20.5.2
   - apiVersion: v2
     appVersion: 23.8.0
-    created: "2024-02-14T16:44:01.68363258Z"
+    created: "2024-02-24T20:28:37.150937397Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -1902,11 +1902,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.5.1.tgz
+    - https://sync667.github.io/charts/sentry-20.5.1.tgz
     version: 20.5.1
   - apiVersion: v2
     appVersion: 23.8.0
-    created: "2024-02-14T16:44:01.649016053Z"
+    created: "2024-02-24T20:28:37.116384581Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -1948,11 +1948,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.5.0.tgz
+    - https://sync667.github.io/charts/sentry-20.5.0.tgz
     version: 20.5.0
   - apiVersion: v2
     appVersion: 23.7.2
-    created: "2024-02-14T16:44:01.614114635Z"
+    created: "2024-02-24T20:28:37.08158634Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -1994,11 +1994,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.4.0.tgz
+    - https://sync667.github.io/charts/sentry-20.4.0.tgz
     version: 20.4.0
   - apiVersion: v2
     appVersion: 23.7.2
-    created: "2024-02-14T16:44:01.580239194Z"
+    created: "2024-02-24T20:28:37.045343673Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -2040,11 +2040,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.3.2.tgz
+    - https://sync667.github.io/charts/sentry-20.3.2.tgz
     version: 20.3.2
   - apiVersion: v2
     appVersion: 23.7.2
-    created: "2024-02-14T16:44:01.546056493Z"
+    created: "2024-02-24T20:28:37.010767571Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -2086,11 +2086,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.3.1.tgz
+    - https://sync667.github.io/charts/sentry-20.3.1.tgz
     version: 20.3.1
   - apiVersion: v2
     appVersion: 23.7.1
-    created: "2024-02-14T16:44:01.512205583Z"
+    created: "2024-02-24T20:28:36.976677593Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -2132,11 +2132,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.3.0.tgz
+    - https://sync667.github.io/charts/sentry-20.3.0.tgz
     version: 20.3.0
   - apiVersion: v2
     appVersion: 23.7.1
-    created: "2024-02-14T16:44:01.478379926Z"
+    created: "2024-02-24T20:28:36.942236034Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -2178,11 +2178,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.2.1.tgz
+    - https://sync667.github.io/charts/sentry-20.2.1.tgz
     version: 20.2.1
   - apiVersion: v2
     appVersion: 23.7.1
-    created: "2024-02-14T16:44:01.445065365Z"
+    created: "2024-02-24T20:28:36.908769155Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -2224,11 +2224,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.2.0.tgz
+    - https://sync667.github.io/charts/sentry-20.2.0.tgz
     version: 20.2.0
   - apiVersion: v2
     appVersion: 23.7.1
-    created: "2024-02-14T16:44:01.201431509Z"
+    created: "2024-02-24T20:28:36.665923169Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -2270,11 +2270,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.1.2.tgz
+    - https://sync667.github.io/charts/sentry-20.1.2.tgz
     version: 20.1.2
   - apiVersion: v2
     appVersion: 23.7.1
-    created: "2024-02-14T16:44:01.167517753Z"
+    created: "2024-02-24T20:28:36.632193761Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -2316,11 +2316,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.1.1.tgz
+    - https://sync667.github.io/charts/sentry-20.1.1.tgz
     version: 20.1.1
   - apiVersion: v2
     appVersion: 23.7.1
-    created: "2024-02-14T16:44:01.134251608Z"
+    created: "2024-02-24T20:28:36.598723792Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -2362,11 +2362,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.1.0.tgz
+    - https://sync667.github.io/charts/sentry-20.1.0.tgz
     version: 20.1.0
   - apiVersion: v2
     appVersion: 23.6.1
-    created: "2024-02-14T16:44:01.100047291Z"
+    created: "2024-02-24T20:28:36.564144981Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -2408,11 +2408,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-20.0.0.tgz
+    - https://sync667.github.io/charts/sentry-20.0.0.tgz
     version: 20.0.0
   - apiVersion: v2
     appVersion: 23.6.1
-    created: "2024-02-14T16:44:01.016990958Z"
+    created: "2024-02-24T20:28:36.484487779Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -2454,11 +2454,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-19.5.1.tgz
+    - https://sync667.github.io/charts/sentry-19.5.1.tgz
     version: 19.5.1
   - apiVersion: v2
     appVersion: 23.6.1
-    created: "2024-02-14T16:44:00.982380216Z"
+    created: "2024-02-24T20:28:36.450012988Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -2500,11 +2500,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-19.5.0.tgz
+    - https://sync667.github.io/charts/sentry-19.5.0.tgz
     version: 19.5.0
   - apiVersion: v2
     appVersion: 23.6.1
-    created: "2024-02-14T16:44:00.949052317Z"
+    created: "2024-02-24T20:28:36.416336804Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -2546,11 +2546,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-19.4.0.tgz
+    - https://sync667.github.io/charts/sentry-19.4.0.tgz
     version: 19.4.0
   - apiVersion: v2
     appVersion: 23.6.1
-    created: "2024-02-14T16:44:00.915419343Z"
+    created: "2024-02-24T20:28:36.382951005Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -2592,11 +2592,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-19.3.0.tgz
+    - https://sync667.github.io/charts/sentry-19.3.0.tgz
     version: 19.3.0
   - apiVersion: v2
     appVersion: 23.5.2
-    created: "2024-02-14T16:44:00.881691758Z"
+    created: "2024-02-24T20:28:36.349105853Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -2638,11 +2638,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-19.2.0.tgz
+    - https://sync667.github.io/charts/sentry-19.2.0.tgz
     version: 19.2.0
   - apiVersion: v2
     appVersion: 23.5.0
-    created: "2024-02-14T16:44:00.848107542Z"
+    created: "2024-02-24T20:28:36.314995529Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -2684,11 +2684,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-19.1.1.tgz
+    - https://sync667.github.io/charts/sentry-19.1.1.tgz
     version: 19.1.1
   - apiVersion: v2
     appVersion: 23.5.0
-    created: "2024-02-14T16:44:00.801564971Z"
+    created: "2024-02-24T20:28:36.282352692Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -2730,11 +2730,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-19.1.0.tgz
+    - https://sync667.github.io/charts/sentry-19.1.0.tgz
     version: 19.1.0
   - apiVersion: v2
     appVersion: 23.5.0
-    created: "2024-02-14T16:44:00.759231041Z"
+    created: "2024-02-24T20:28:36.248146792Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -2772,11 +2772,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-19.0.0.tgz
+    - https://sync667.github.io/charts/sentry-19.0.0.tgz
     version: 19.0.0
   - apiVersion: v2
     appVersion: 23.3.1
-    created: "2024-02-14T16:44:00.723594088Z"
+    created: "2024-02-24T20:28:36.218006059Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -2818,11 +2818,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-18.0.1.tgz
+    - https://sync667.github.io/charts/sentry-18.0.1.tgz
     version: 18.0.1
   - apiVersion: v2
     appVersion: 23.3.1
-    created: "2024-02-14T16:44:00.683895964Z"
+    created: "2024-02-24T20:28:36.185461239Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -2864,11 +2864,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-18.0.0.tgz
+    - https://sync667.github.io/charts/sentry-18.0.0.tgz
     version: 18.0.0
   - apiVersion: v2
     appVersion: 23.3.1
-    created: "2024-02-14T16:44:00.211191071Z"
+    created: "2024-02-24T20:28:35.773915024Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -2910,11 +2910,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-17.12.0.tgz
+    - https://sync667.github.io/charts/sentry-17.12.0.tgz
     version: 17.12.0
   - apiVersion: v2
     appVersion: 22.11.0
-    created: "2024-02-14T16:44:00.177240017Z"
+    created: "2024-02-24T20:28:35.741587439Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -2956,11 +2956,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-17.11.3.tgz
+    - https://sync667.github.io/charts/sentry-17.11.3.tgz
     version: 17.11.3
   - apiVersion: v2
     appVersion: 22.11.0
-    created: "2024-02-14T16:44:00.134184531Z"
+    created: "2024-02-24T20:28:35.709670935Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -3002,11 +3002,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-17.11.2.tgz
+    - https://sync667.github.io/charts/sentry-17.11.2.tgz
     version: 17.11.2
   - apiVersion: v2
     appVersion: 22.11.0
-    created: "2024-02-14T16:44:00.091007086Z"
+    created: "2024-02-24T20:28:35.677676451Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -3048,11 +3048,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-17.11.1.tgz
+    - https://sync667.github.io/charts/sentry-17.11.1.tgz
     version: 17.11.1
   - apiVersion: v2
     appVersion: 22.11.0
-    created: "2024-02-14T16:44:00.046058111Z"
+    created: "2024-02-24T20:28:35.645389264Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -3094,11 +3094,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-17.11.0.tgz
+    - https://sync667.github.io/charts/sentry-17.11.0.tgz
     version: 17.11.0
   - apiVersion: v2
     appVersion: 22.11.0
-    created: "2024-02-14T16:44:00.002865906Z"
+    created: "2024-02-24T20:28:35.613132633Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -3140,11 +3140,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-17.10.1.tgz
+    - https://sync667.github.io/charts/sentry-17.10.1.tgz
     version: 17.10.1
   - apiVersion: v2
     appVersion: 22.11.0
-    created: "2024-02-14T16:44:00.650113277Z"
+    created: "2024-02-24T20:28:36.15089031Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -3186,11 +3186,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-17.9.2.tgz
+    - https://sync667.github.io/charts/sentry-17.9.2.tgz
     version: 17.9.2
   - apiVersion: v2
     appVersion: 22.11.0
-    created: "2024-02-14T16:44:00.607553889Z"
+    created: "2024-02-24T20:28:36.093779199Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -3232,11 +3232,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-17.9.1.tgz
+    - https://sync667.github.io/charts/sentry-17.9.1.tgz
     version: 17.9.1
   - apiVersion: v2
     appVersion: 22.11.0
-    created: "2024-02-14T16:44:00.559186162Z"
+    created: "2024-02-24T20:28:36.061344485Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -3278,11 +3278,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-17.9.0.tgz
+    - https://sync667.github.io/charts/sentry-17.9.0.tgz
     version: 17.9.0
   - apiVersion: v2
     appVersion: 22.10.0
-    created: "2024-02-14T16:44:00.527150043Z"
+    created: "2024-02-24T20:28:36.029089299Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -3324,11 +3324,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-17.8.0.tgz
+    - https://sync667.github.io/charts/sentry-17.8.0.tgz
     version: 17.8.0
   - apiVersion: v2
     appVersion: 22.10.0
-    created: "2024-02-14T16:44:00.488667227Z"
+    created: "2024-02-24T20:28:35.996887635Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -3370,11 +3370,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-17.7.1.tgz
+    - https://sync667.github.io/charts/sentry-17.7.1.tgz
     version: 17.7.1
   - apiVersion: v2
     appVersion: 22.10.0
-    created: "2024-02-14T16:44:00.454851299Z"
+    created: "2024-02-24T20:28:35.965747776Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -3416,11 +3416,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-17.7.0.tgz
+    - https://sync667.github.io/charts/sentry-17.7.0.tgz
     version: 17.7.0
   - apiVersion: v2
     appVersion: 22.10.0
-    created: "2024-02-14T16:44:00.416500054Z"
+    created: "2024-02-24T20:28:35.933240579Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -3462,11 +3462,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-17.6.0.tgz
+    - https://sync667.github.io/charts/sentry-17.6.0.tgz
     version: 17.6.0
   - apiVersion: v2
     appVersion: 22.10.0
-    created: "2024-02-14T16:44:00.3695179Z"
+    created: "2024-02-24T20:28:35.902399809Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -3508,11 +3508,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-17.5.0.tgz
+    - https://sync667.github.io/charts/sentry-17.5.0.tgz
     version: 17.5.0
   - apiVersion: v2
     appVersion: 22.10.0
-    created: "2024-02-14T16:44:00.330261639Z"
+    created: "2024-02-24T20:28:35.870303387Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -3554,11 +3554,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-17.4.0.tgz
+    - https://sync667.github.io/charts/sentry-17.4.0.tgz
     version: 17.4.0
   - apiVersion: v2
     appVersion: 22.10.0
-    created: "2024-02-14T16:44:00.286691819Z"
+    created: "2024-02-24T20:28:35.837545088Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -3600,11 +3600,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-17.3.0.tgz
+    - https://sync667.github.io/charts/sentry-17.3.0.tgz
     version: 17.3.0
   - apiVersion: v2
     appVersion: 22.10.0
-    created: "2024-02-14T16:44:00.243529187Z"
+    created: "2024-02-24T20:28:35.805962965Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -3646,11 +3646,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-17.2.0.tgz
+    - https://sync667.github.io/charts/sentry-17.2.0.tgz
     version: 17.2.0
   - apiVersion: v2
     appVersion: 22.10.0
-    created: "2024-02-14T16:43:59.962862982Z"
+    created: "2024-02-24T20:28:35.580783921Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -3692,11 +3692,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-17.1.0.tgz
+    - https://sync667.github.io/charts/sentry-17.1.0.tgz
     version: 17.1.0
   - apiVersion: v2
     appVersion: 22.10.0
-    created: "2024-02-14T16:43:59.930174508Z"
+    created: "2024-02-24T20:28:35.548744882Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -3738,11 +3738,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-17.0.0.tgz
+    - https://sync667.github.io/charts/sentry-17.0.0.tgz
     version: 17.0.0
   - apiVersion: v2
     appVersion: 22.9.0
-    created: "2024-02-14T16:43:59.884767805Z"
+    created: "2024-02-24T20:28:35.516870955Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -3784,11 +3784,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-16.0.6.tgz
+    - https://sync667.github.io/charts/sentry-16.0.6.tgz
     version: 16.0.6
   - apiVersion: v2
     appVersion: 22.9.0
-    created: "2024-02-14T16:43:59.843371906Z"
+    created: "2024-02-24T20:28:35.485222598Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -3830,11 +3830,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-16.0.5.tgz
+    - https://sync667.github.io/charts/sentry-16.0.5.tgz
     version: 16.0.5
   - apiVersion: v2
     appVersion: 22.9.0
-    created: "2024-02-14T16:43:59.81244882Z"
+    created: "2024-02-24T20:28:35.452987915Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -3876,11 +3876,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-16.0.4.tgz
+    - https://sync667.github.io/charts/sentry-16.0.4.tgz
     version: 16.0.4
   - apiVersion: v2
     appVersion: 22.9.0
-    created: "2024-02-14T16:43:59.77344961Z"
+    created: "2024-02-24T20:28:35.421683704Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -3922,11 +3922,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-16.0.3.tgz
+    - https://sync667.github.io/charts/sentry-16.0.3.tgz
     version: 16.0.3
   - apiVersion: v2
     appVersion: 22.9.0
-    created: "2024-02-14T16:43:59.732868987Z"
+    created: "2024-02-24T20:28:35.389949077Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -3968,11 +3968,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-16.0.2.tgz
+    - https://sync667.github.io/charts/sentry-16.0.2.tgz
     version: 16.0.2
   - apiVersion: v2
     appVersion: 22.9.0
-    created: "2024-02-14T16:43:59.701131023Z"
+    created: "2024-02-24T20:28:35.358285988Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -4014,11 +4014,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-16.0.1.tgz
+    - https://sync667.github.io/charts/sentry-16.0.1.tgz
     version: 16.0.1
   - apiVersion: v2
     appVersion: 22.9.0
-    created: "2024-02-14T16:43:59.669776741Z"
+    created: "2024-02-24T20:28:35.326128432Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -4060,11 +4060,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-16.0.0.tgz
+    - https://sync667.github.io/charts/sentry-16.0.0.tgz
     version: 16.0.0
   - apiVersion: v2
     appVersion: 22.9.0
-    created: "2024-02-14T16:43:59.638693842Z"
+    created: "2024-02-24T20:28:35.294378166Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -4106,11 +4106,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-15.3.0.tgz
+    - https://sync667.github.io/charts/sentry-15.3.0.tgz
     version: 15.3.0
   - apiVersion: v2
     appVersion: 22.8.0
-    created: "2024-02-14T16:43:59.607555215Z"
+    created: "2024-02-24T20:28:35.262924177Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -4152,11 +4152,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-15.2.2.tgz
+    - https://sync667.github.io/charts/sentry-15.2.2.tgz
     version: 15.2.2
   - apiVersion: v2
     appVersion: 22.8.0
-    created: "2024-02-14T16:43:59.576722298Z"
+    created: "2024-02-24T20:28:35.231311878Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -4198,11 +4198,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-15.2.1.tgz
+    - https://sync667.github.io/charts/sentry-15.2.1.tgz
     version: 15.2.1
   - apiVersion: v2
     appVersion: 22.8.0
-    created: "2024-02-14T16:43:59.545556629Z"
+    created: "2024-02-24T20:28:35.199178197Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -4244,11 +4244,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-15.2.0.tgz
+    - https://sync667.github.io/charts/sentry-15.2.0.tgz
     version: 15.2.0
   - apiVersion: v2
     appVersion: 22.7.0
-    created: "2024-02-14T16:43:59.513907139Z"
+    created: "2024-02-24T20:28:35.167418629Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -4290,11 +4290,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-15.1.0.tgz
+    - https://sync667.github.io/charts/sentry-15.1.0.tgz
     version: 15.1.0
   - apiVersion: v2
     appVersion: 22.6.0
-    created: "2024-02-14T16:43:59.324064952Z"
+    created: "2024-02-24T20:28:34.975854013Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -4336,11 +4336,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-15.0.10.tgz
+    - https://sync667.github.io/charts/sentry-15.0.10.tgz
     version: 15.0.10
   - apiVersion: v2
     appVersion: 22.6.0
-    created: "2024-02-14T16:43:59.482173095Z"
+    created: "2024-02-24T20:28:35.135890475Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -4382,11 +4382,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-15.0.9.tgz
+    - https://sync667.github.io/charts/sentry-15.0.9.tgz
     version: 15.0.9
   - apiVersion: v2
     appVersion: 22.6.0
-    created: "2024-02-14T16:43:59.45096609Z"
+    created: "2024-02-24T20:28:35.104113431Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -4428,11 +4428,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-15.0.8.tgz
+    - https://sync667.github.io/charts/sentry-15.0.8.tgz
     version: 15.0.8
   - apiVersion: v2
     appVersion: 22.6.0
-    created: "2024-02-14T16:43:59.419089952Z"
+    created: "2024-02-24T20:28:35.072315305Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -4474,11 +4474,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-15.0.7.tgz
+    - https://sync667.github.io/charts/sentry-15.0.7.tgz
     version: 15.0.7
   - apiVersion: v2
     appVersion: 22.6.0
-    created: "2024-02-14T16:43:59.387177694Z"
+    created: "2024-02-24T20:28:35.040786752Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -4520,11 +4520,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-15.0.3.tgz
+    - https://sync667.github.io/charts/sentry-15.0.3.tgz
     version: 15.0.3
   - apiVersion: v2
     appVersion: 22.6.0
-    created: "2024-02-14T16:43:59.355199646Z"
+    created: "2024-02-24T20:28:35.008664536Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -4566,11 +4566,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-15.0.2.tgz
+    - https://sync667.github.io/charts/sentry-15.0.2.tgz
     version: 15.0.2
   - apiVersion: v2
     appVersion: 22.6.0
-    created: "2024-02-14T16:43:59.289354794Z"
+    created: "2024-02-24T20:28:34.944058812Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -4612,11 +4612,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-15.0.1.tgz
+    - https://sync667.github.io/charts/sentry-15.0.1.tgz
     version: 15.0.1
   - apiVersion: v2
     appVersion: 22.6.0
-    created: "2024-02-14T16:43:59.257669988Z"
+    created: "2024-02-24T20:28:34.912516989Z"
     dependencies:
     - condition: sourcemaps.enabled
       name: memcached
@@ -4658,11 +4658,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-15.0.0.tgz
+    - https://sync667.github.io/charts/sentry-15.0.0.tgz
     version: 15.0.0
   - apiVersion: v2
     appVersion: 22.6.0
-    created: "2024-02-14T16:43:59.220420574Z"
+    created: "2024-02-24T20:28:34.879536825Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -4700,11 +4700,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-14.2.0.tgz
+    - https://sync667.github.io/charts/sentry-14.2.0.tgz
     version: 14.2.0
   - apiVersion: v2
     appVersion: 22.6.0
-    created: "2024-02-14T16:43:59.189533879Z"
+    created: "2024-02-24T20:28:34.855885265Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -4742,11 +4742,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-14.1.2.tgz
+    - https://sync667.github.io/charts/sentry-14.1.2.tgz
     version: 14.1.2
   - apiVersion: v2
     appVersion: 22.5.0
-    created: "2024-02-14T16:43:59.152612591Z"
+    created: "2024-02-24T20:28:34.833307851Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -4784,11 +4784,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-14.1.1.tgz
+    - https://sync667.github.io/charts/sentry-14.1.1.tgz
     version: 14.1.1
   - apiVersion: v2
     appVersion: 22.5.0
-    created: "2024-02-14T16:43:59.129409578Z"
+    created: "2024-02-24T20:28:34.810132632Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -4826,11 +4826,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-14.1.0.tgz
+    - https://sync667.github.io/charts/sentry-14.1.0.tgz
     version: 14.1.0
   - apiVersion: v2
     appVersion: 22.3.0
-    created: "2024-02-14T16:43:59.106241053Z"
+    created: "2024-02-24T20:28:34.787616129Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -4868,11 +4868,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-14.0.2.tgz
+    - https://sync667.github.io/charts/sentry-14.0.2.tgz
     version: 14.0.2
   - apiVersion: v2
     appVersion: 22.3.0
-    created: "2024-02-14T16:43:59.083304078Z"
+    created: "2024-02-24T20:28:34.764281405Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -4908,11 +4908,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-14.0.1.tgz
+    - https://sync667.github.io/charts/sentry-14.0.1.tgz
     version: 14.0.1
   - apiVersion: v2
     appVersion: 22.3.0
-    created: "2024-02-14T16:43:59.05964303Z"
+    created: "2024-02-24T20:28:34.741377356Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -4948,11 +4948,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-14.0.0.tgz
+    - https://sync667.github.io/charts/sentry-14.0.0.tgz
     version: 14.0.0
   - apiVersion: v2
     appVersion: 21.8.0
-    created: "2024-02-14T16:43:59.037133388Z"
+    created: "2024-02-24T20:28:34.718592471Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -4984,11 +4984,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-13.1.0.tgz
+    - https://sync667.github.io/charts/sentry-13.1.0.tgz
     version: 13.1.0
   - apiVersion: v2
     appVersion: 21.8.0
-    created: "2024-02-14T16:43:59.014747276Z"
+    created: "2024-02-24T20:28:34.697554006Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -5020,11 +5020,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-13.0.1.tgz
+    - https://sync667.github.io/charts/sentry-13.0.1.tgz
     version: 13.0.1
   - apiVersion: v2
     appVersion: 21.8.0
-    created: "2024-02-14T16:43:58.993775572Z"
+    created: "2024-02-24T20:28:34.67751051Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -5056,11 +5056,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-13.0.0.tgz
+    - https://sync667.github.io/charts/sentry-13.0.0.tgz
     version: 13.0.0
   - apiVersion: v2
     appVersion: 21.8.0
-    created: "2024-02-14T16:43:58.972990815Z"
+    created: "2024-02-24T20:28:34.65768961Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -5092,11 +5092,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-12.0.0.tgz
+    - https://sync667.github.io/charts/sentry-12.0.0.tgz
     version: 12.0.0
   - apiVersion: v2
     appVersion: 21.8.0
-    created: "2024-02-14T16:43:58.952847728Z"
+    created: "2024-02-24T20:28:34.637098891Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -5128,11 +5128,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-11.9.0.tgz
+    - https://sync667.github.io/charts/sentry-11.9.0.tgz
     version: 11.9.0
   - apiVersion: v2
     appVersion: 21.8.0
-    created: "2024-02-14T16:43:58.934738174Z"
+    created: "2024-02-24T20:28:34.618999169Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -5164,11 +5164,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-11.8.0.tgz
+    - https://sync667.github.io/charts/sentry-11.8.0.tgz
     version: 11.8.0
   - apiVersion: v2
     appVersion: 21.8.0
-    created: "2024-02-14T16:43:58.917368574Z"
+    created: "2024-02-24T20:28:34.600956003Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -5200,11 +5200,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-11.7.0.tgz
+    - https://sync667.github.io/charts/sentry-11.7.0.tgz
     version: 11.7.0
   - apiVersion: v2
     appVersion: 21.8.0
-    created: "2024-02-14T16:43:58.89972524Z"
+    created: "2024-02-24T20:28:34.583710171Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -5236,11 +5236,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-11.6.0.tgz
+    - https://sync667.github.io/charts/sentry-11.6.0.tgz
     version: 11.6.0
   - apiVersion: v2
     appVersion: 21.7.0
-    created: "2024-02-14T16:43:58.880513899Z"
+    created: "2024-02-24T20:28:34.56570927Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -5272,11 +5272,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-11.5.1.tgz
+    - https://sync667.github.io/charts/sentry-11.5.1.tgz
     version: 11.5.1
   - apiVersion: v2
     appVersion: 21.7.0
-    created: "2024-02-14T16:43:58.861916452Z"
+    created: "2024-02-24T20:28:34.548201377Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -5308,11 +5308,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-11.5.0.tgz
+    - https://sync667.github.io/charts/sentry-11.5.0.tgz
     version: 11.5.0
   - apiVersion: v2
     appVersion: 21.6.1
-    created: "2024-02-14T16:43:58.844231788Z"
+    created: "2024-02-24T20:28:34.53016533Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -5344,11 +5344,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-11.4.1.tgz
+    - https://sync667.github.io/charts/sentry-11.4.1.tgz
     version: 11.4.1
   - apiVersion: v2
     appVersion: 21.6.1
-    created: "2024-02-14T16:43:58.825510119Z"
+    created: "2024-02-24T20:28:34.513975058Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -5380,11 +5380,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-11.4.0.tgz
+    - https://sync667.github.io/charts/sentry-11.4.0.tgz
     version: 11.4.0
   - apiVersion: v2
     appVersion: 21.5.1
-    created: "2024-02-14T16:43:58.809515158Z"
+    created: "2024-02-24T20:28:34.495580138Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -5416,11 +5416,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-11.3.3.tgz
+    - https://sync667.github.io/charts/sentry-11.3.3.tgz
     version: 11.3.3
   - apiVersion: v2
     appVersion: 21.5.1
-    created: "2024-02-14T16:43:58.792988226Z"
+    created: "2024-02-24T20:28:34.478679927Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -5452,11 +5452,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-11.3.2.tgz
+    - https://sync667.github.io/charts/sentry-11.3.2.tgz
     version: 11.3.2
   - apiVersion: v2
     appVersion: 21.5.1
-    created: "2024-02-14T16:43:58.776582037Z"
+    created: "2024-02-24T20:28:34.462245658Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -5488,11 +5488,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-11.3.1.tgz
+    - https://sync667.github.io/charts/sentry-11.3.1.tgz
     version: 11.3.1
   - apiVersion: v2
     appVersion: 21.5.1
-    created: "2024-02-14T16:43:58.760864265Z"
+    created: "2024-02-24T20:28:34.437762501Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -5524,11 +5524,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-11.3.0.tgz
+    - https://sync667.github.io/charts/sentry-11.3.0.tgz
     version: 11.3.0
   - apiVersion: v2
     appVersion: 21.4.1
-    created: "2024-02-14T16:43:58.744428067Z"
+    created: "2024-02-24T20:28:34.420977575Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -5560,11 +5560,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-11.2.2.tgz
+    - https://sync667.github.io/charts/sentry-11.2.2.tgz
     version: 11.2.2
   - apiVersion: v2
     appVersion: 21.4.1
-    created: "2024-02-14T16:43:58.728088821Z"
+    created: "2024-02-24T20:28:34.403252018Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -5596,11 +5596,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-11.2.1.tgz
+    - https://sync667.github.io/charts/sentry-11.2.1.tgz
     version: 11.2.1
   - apiVersion: v2
     appVersion: 21.4.0
-    created: "2024-02-14T16:43:58.712458076Z"
+    created: "2024-02-24T20:28:34.3848838Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -5632,11 +5632,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-11.2.0.tgz
+    - https://sync667.github.io/charts/sentry-11.2.0.tgz
     version: 11.2.0
   - apiVersion: v2
     appVersion: 21.4.0
-    created: "2024-02-14T16:43:58.696602673Z"
+    created: "2024-02-24T20:28:34.368984473Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -5668,11 +5668,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-11.1.0.tgz
+    - https://sync667.github.io/charts/sentry-11.1.0.tgz
     version: 11.1.0
   - apiVersion: v2
     appVersion: 21.3.1
-    created: "2024-02-14T16:43:58.679621235Z"
+    created: "2024-02-24T20:28:34.352227881Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -5704,11 +5704,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-11.0.1.tgz
+    - https://sync667.github.io/charts/sentry-11.0.1.tgz
     version: 11.0.1
   - apiVersion: v2
     appVersion: 21.3.0
-    created: "2024-02-14T16:43:58.662769915Z"
+    created: "2024-02-24T20:28:34.335373156Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -5740,11 +5740,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-11.0.0.tgz
+    - https://sync667.github.io/charts/sentry-11.0.0.tgz
     version: 11.0.0
   - apiVersion: v2
     appVersion: 21.3.0
-    created: "2024-02-14T16:43:58.644365964Z"
+    created: "2024-02-24T20:28:34.318588068Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -5776,11 +5776,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-10.1.0.tgz
+    - https://sync667.github.io/charts/sentry-10.1.0.tgz
     version: 10.1.0
   - apiVersion: v2
     appVersion: 21.2.0
-    created: "2024-02-14T16:43:58.627851667Z"
+    created: "2024-02-24T20:28:34.301832899Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -5812,11 +5812,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-10.0.0.tgz
+    - https://sync667.github.io/charts/sentry-10.0.0.tgz
     version: 10.0.0
   - apiVersion: v2
     appVersion: 21.2.0
-    created: "2024-02-14T16:44:03.252393772Z"
+    created: "2024-02-24T20:28:38.734830468Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -5848,11 +5848,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-9.1.2.tgz
+    - https://sync667.github.io/charts/sentry-9.1.2.tgz
     version: 9.1.2
   - apiVersion: v2
     appVersion: 21.2.0
-    created: "2024-02-14T16:44:03.236608147Z"
+    created: "2024-02-24T20:28:38.717939931Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -5884,11 +5884,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-9.1.1.tgz
+    - https://sync667.github.io/charts/sentry-9.1.1.tgz
     version: 9.1.1
   - apiVersion: v2
     appVersion: 21.2.0
-    created: "2024-02-14T16:44:03.220644274Z"
+    created: "2024-02-24T20:28:38.702318533Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -5920,11 +5920,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-9.1.0.tgz
+    - https://sync667.github.io/charts/sentry-9.1.0.tgz
     version: 9.1.0
   - apiVersion: v2
     appVersion: 21.1.0
-    created: "2024-02-14T16:44:03.204364635Z"
+    created: "2024-02-24T20:28:38.685618666Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -5956,11 +5956,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-9.0.2.tgz
+    - https://sync667.github.io/charts/sentry-9.0.2.tgz
     version: 9.0.2
   - apiVersion: v2
     appVersion: 21.1.0
-    created: "2024-02-14T16:44:03.188747631Z"
+    created: "2024-02-24T20:28:38.669973765Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -5992,11 +5992,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-9.0.1.tgz
+    - https://sync667.github.io/charts/sentry-9.0.1.tgz
     version: 9.0.1
   - apiVersion: v2
     appVersion: 21.1.0
-    created: "2024-02-14T16:44:03.17238993Z"
+    created: "2024-02-24T20:28:38.65371531Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -6028,11 +6028,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-9.0.0.tgz
+    - https://sync667.github.io/charts/sentry-9.0.0.tgz
     version: 9.0.0
   - apiVersion: v2
     appVersion: 20.12.1
-    created: "2024-02-14T16:44:03.157064792Z"
+    created: "2024-02-24T20:28:38.63722882Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -6064,11 +6064,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-8.1.3.tgz
+    - https://sync667.github.io/charts/sentry-8.1.3.tgz
     version: 8.1.3
   - apiVersion: v2
     appVersion: 20.12.1
-    created: "2024-02-14T16:44:03.142422025Z"
+    created: "2024-02-24T20:28:38.623000268Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -6100,11 +6100,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-8.1.2.tgz
+    - https://sync667.github.io/charts/sentry-8.1.2.tgz
     version: 8.1.2
   - apiVersion: v2
     appVersion: 20.12.1
-    created: "2024-02-14T16:44:03.128619121Z"
+    created: "2024-02-24T20:28:38.608153375Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -6136,11 +6136,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-8.1.1.tgz
+    - https://sync667.github.io/charts/sentry-8.1.1.tgz
     version: 8.1.1
   - apiVersion: v2
     appVersion: 20.12.1
-    created: "2024-02-14T16:44:03.114435554Z"
+    created: "2024-02-24T20:28:38.594203561Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -6172,11 +6172,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-8.1.0.tgz
+    - https://sync667.github.io/charts/sentry-8.1.0.tgz
     version: 8.1.0
   - apiVersion: v2
     appVersion: 20.10.1
-    created: "2024-02-14T16:44:03.099661445Z"
+    created: "2024-02-24T20:28:38.58029654Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -6208,11 +6208,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-8.0.1.tgz
+    - https://sync667.github.io/charts/sentry-8.0.1.tgz
     version: 8.0.1
   - apiVersion: v2
     appVersion: 20.10.1
-    created: "2024-02-14T16:44:03.085923317Z"
+    created: "2024-02-24T20:28:38.566202285Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -6244,11 +6244,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-8.0.0.tgz
+    - https://sync667.github.io/charts/sentry-8.0.0.tgz
     version: 8.0.0
   - apiVersion: v2
     appVersion: 20.10.1
-    created: "2024-02-14T16:44:03.071998361Z"
+    created: "2024-02-24T20:28:38.551186959Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -6280,11 +6280,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-7.4.1.tgz
+    - https://sync667.github.io/charts/sentry-7.4.1.tgz
     version: 7.4.1
   - apiVersion: v2
     appVersion: 20.10.1
-    created: "2024-02-14T16:44:03.057664775Z"
+    created: "2024-02-24T20:28:38.53713543Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -6316,11 +6316,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-7.4.0.tgz
+    - https://sync667.github.io/charts/sentry-7.4.0.tgz
     version: 7.4.0
   - apiVersion: v2
     appVersion: 20.10.1
-    created: "2024-02-14T16:44:03.042933619Z"
+    created: "2024-02-24T20:28:38.522686699Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -6352,11 +6352,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-7.3.1.tgz
+    - https://sync667.github.io/charts/sentry-7.3.1.tgz
     version: 7.3.1
   - apiVersion: v2
     appVersion: 20.10.1
-    created: "2024-02-14T16:44:03.029678341Z"
+    created: "2024-02-24T20:28:38.508248763Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -6388,11 +6388,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-7.3.0.tgz
+    - https://sync667.github.io/charts/sentry-7.3.0.tgz
     version: 7.3.0
   - apiVersion: v2
     appVersion: 20.10.1
-    created: "2024-02-14T16:44:03.016413263Z"
+    created: "2024-02-24T20:28:38.494857925Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -6424,11 +6424,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-7.2.1.tgz
+    - https://sync667.github.io/charts/sentry-7.2.1.tgz
     version: 7.2.1
   - apiVersion: v2
     appVersion: 20.10.1
-    created: "2024-02-14T16:44:03.003037379Z"
+    created: "2024-02-24T20:28:38.481360955Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -6460,11 +6460,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-7.2.0.tgz
+    - https://sync667.github.io/charts/sentry-7.2.0.tgz
     version: 7.2.0
   - apiVersion: v2
     appVersion: 20.10.1
-    created: "2024-02-14T16:44:02.989489629Z"
+    created: "2024-02-24T20:28:38.467861825Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -6496,11 +6496,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-7.1.0.tgz
+    - https://sync667.github.io/charts/sentry-7.1.0.tgz
     version: 7.1.0
   - apiVersion: v2
     appVersion: 20.10.1
-    created: "2024-02-14T16:44:02.975335979Z"
+    created: "2024-02-24T20:28:38.453118325Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -6532,11 +6532,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-7.0.0.tgz
+    - https://sync667.github.io/charts/sentry-7.0.0.tgz
     version: 7.0.0
   - apiVersion: v2
     appVersion: 20.9.0
-    created: "2024-02-14T16:44:02.962249244Z"
+    created: "2024-02-24T20:28:38.439998255Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -6568,11 +6568,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-6.2.1.tgz
+    - https://sync667.github.io/charts/sentry-6.2.1.tgz
     version: 6.2.1
   - apiVersion: v2
     appVersion: 20.9.0
-    created: "2024-02-14T16:44:02.948776466Z"
+    created: "2024-02-24T20:28:38.426431053Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -6604,11 +6604,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-6.2.0.tgz
+    - https://sync667.github.io/charts/sentry-6.2.0.tgz
     version: 6.2.0
   - apiVersion: v2
     appVersion: 20.9.0
-    created: "2024-02-14T16:44:02.934747103Z"
+    created: "2024-02-24T20:28:38.412479782Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -6640,11 +6640,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-6.1.0.tgz
+    - https://sync667.github.io/charts/sentry-6.1.0.tgz
     version: 6.1.0
   - apiVersion: v2
     appVersion: 20.9.0
-    created: "2024-02-14T16:44:02.9216971Z"
+    created: "2024-02-24T20:28:38.399273562Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -6676,11 +6676,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-6.0.0.tgz
+    - https://sync667.github.io/charts/sentry-6.0.0.tgz
     version: 6.0.0
   - apiVersion: v2
     appVersion: 20.9.0
-    created: "2024-02-14T16:44:02.908752604Z"
+    created: "2024-02-24T20:28:38.385866059Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -6712,11 +6712,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-5.6.1.tgz
+    - https://sync667.github.io/charts/sentry-5.6.1.tgz
     version: 5.6.1
   - apiVersion: v2
     appVersion: 20.9.0
-    created: "2024-02-14T16:44:02.895442892Z"
+    created: "2024-02-24T20:28:38.372420262Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -6748,11 +6748,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-5.6.0.tgz
+    - https://sync667.github.io/charts/sentry-5.6.0.tgz
     version: 5.6.0
   - apiVersion: v2
     appVersion: 20.8.0
-    created: "2024-02-14T16:44:02.881368651Z"
+    created: "2024-02-24T20:28:38.35832701Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -6784,11 +6784,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-5.5.0.tgz
+    - https://sync667.github.io/charts/sentry-5.5.0.tgz
     version: 5.5.0
   - apiVersion: v2
     appVersion: 20.8.0
-    created: "2024-02-14T16:44:02.86830109Z"
+    created: "2024-02-24T20:28:38.345225192Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -6820,11 +6820,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-5.4.0.tgz
+    - https://sync667.github.io/charts/sentry-5.4.0.tgz
     version: 5.4.0
   - apiVersion: v2
     appVersion: 20.8.0
-    created: "2024-02-14T16:44:02.855121947Z"
+    created: "2024-02-24T20:28:38.331925979Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -6856,11 +6856,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-5.3.0.tgz
+    - https://sync667.github.io/charts/sentry-5.3.0.tgz
     version: 5.3.0
   - apiVersion: v2
     appVersion: 20.8.0
-    created: "2024-02-14T16:44:02.841070112Z"
+    created: "2024-02-24T20:28:38.318570403Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -6892,11 +6892,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-5.2.3.tgz
+    - https://sync667.github.io/charts/sentry-5.2.3.tgz
     version: 5.2.3
   - apiVersion: v2
     appVersion: 20.8.0
-    created: "2024-02-14T16:44:02.827954819Z"
+    created: "2024-02-24T20:28:38.304412775Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -6928,11 +6928,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-5.2.2.tgz
+    - https://sync667.github.io/charts/sentry-5.2.2.tgz
     version: 5.2.2
   - apiVersion: v2
     appVersion: 20.8.0
-    created: "2024-02-14T16:44:02.814839231Z"
+    created: "2024-02-24T20:28:38.291235685Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -6964,11 +6964,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-5.2.1.tgz
+    - https://sync667.github.io/charts/sentry-5.2.1.tgz
     version: 5.2.1
   - apiVersion: v2
     appVersion: 20.8.0
-    created: "2024-02-14T16:44:02.801322741Z"
+    created: "2024-02-24T20:28:38.277479336Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7000,11 +7000,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-5.2.0.tgz
+    - https://sync667.github.io/charts/sentry-5.2.0.tgz
     version: 5.2.0
   - apiVersion: v2
     appVersion: 20.8.0
-    created: "2024-02-14T16:44:02.787326305Z"
+    created: "2024-02-24T20:28:38.263114255Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7036,11 +7036,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-5.1.3.tgz
+    - https://sync667.github.io/charts/sentry-5.1.3.tgz
     version: 5.1.3
   - apiVersion: v2
     appVersion: 20.8.0
-    created: "2024-02-14T16:44:02.774377234Z"
+    created: "2024-02-24T20:28:38.250167622Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7072,11 +7072,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-5.1.2.tgz
+    - https://sync667.github.io/charts/sentry-5.1.2.tgz
     version: 5.1.2
   - apiVersion: v2
     appVersion: 20.8.1
-    created: "2024-02-14T16:44:02.761341491Z"
+    created: "2024-02-24T20:28:38.236592153Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7108,11 +7108,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-5.1.1.tgz
+    - https://sync667.github.io/charts/sentry-5.1.1.tgz
     version: 5.1.1
   - apiVersion: v2
     appVersion: 20.8.0
-    created: "2024-02-14T16:44:02.747957913Z"
+    created: "2024-02-24T20:28:38.222920999Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7144,11 +7144,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-5.1.0.tgz
+    - https://sync667.github.io/charts/sentry-5.1.0.tgz
     version: 5.1.0
   - apiVersion: v2
     appVersion: 20.7.2
-    created: "2024-02-14T16:44:02.733901699Z"
+    created: "2024-02-24T20:28:38.208608713Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7180,11 +7180,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-5.0.1.tgz
+    - https://sync667.github.io/charts/sentry-5.0.1.tgz
     version: 5.0.1
   - apiVersion: v2
     appVersion: 20.7.2
-    created: "2024-02-14T16:44:02.720928333Z"
+    created: "2024-02-24T20:28:38.195334923Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7216,11 +7216,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-5.0.0.tgz
+    - https://sync667.github.io/charts/sentry-5.0.0.tgz
     version: 5.0.0
   - apiVersion: v2
     appVersion: 20.7.0
-    created: "2024-02-14T16:44:02.707714671Z"
+    created: "2024-02-24T20:28:38.182120097Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7248,11 +7248,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-4.8.1.tgz
+    - https://sync667.github.io/charts/sentry-4.8.1.tgz
     version: 4.8.1
   - apiVersion: v2
     appVersion: 20.7.0
-    created: "2024-02-14T16:44:02.695626682Z"
+    created: "2024-02-24T20:28:38.169903478Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7280,11 +7280,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-4.8.0.tgz
+    - https://sync667.github.io/charts/sentry-4.8.0.tgz
     version: 4.8.0
   - apiVersion: v2
     appVersion: 20.7.0
-    created: "2024-02-14T16:44:02.683636777Z"
+    created: "2024-02-24T20:28:38.157665446Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7312,11 +7312,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-4.7.2.tgz
+    - https://sync667.github.io/charts/sentry-4.7.2.tgz
     version: 4.7.2
   - apiVersion: v2
     appVersion: 20.7.2
-    created: "2024-02-14T16:44:02.671498645Z"
+    created: "2024-02-24T20:28:38.144730035Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7344,11 +7344,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-4.7.1.tgz
+    - https://sync667.github.io/charts/sentry-4.7.1.tgz
     version: 4.7.1
   - apiVersion: v2
     appVersion: 20.7.2
-    created: "2024-02-14T16:44:02.658710095Z"
+    created: "2024-02-24T20:28:38.132926218Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7376,11 +7376,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-4.7.0.tgz
+    - https://sync667.github.io/charts/sentry-4.7.0.tgz
     version: 4.7.0
   - apiVersion: v2
     appVersion: 20.7.2
-    created: "2024-02-14T16:44:02.6472095Z"
+    created: "2024-02-24T20:28:38.121166532Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7408,11 +7408,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-4.6.0.tgz
+    - https://sync667.github.io/charts/sentry-4.6.0.tgz
     version: 4.6.0
   - apiVersion: v2
     appVersion: 20.7.2
-    created: "2024-02-14T16:44:02.635311843Z"
+    created: "2024-02-24T20:28:38.10933522Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7440,11 +7440,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-4.5.1.tgz
+    - https://sync667.github.io/charts/sentry-4.5.1.tgz
     version: 4.5.1
   - apiVersion: v2
     appVersion: 20.7.2
-    created: "2024-02-14T16:44:02.623581297Z"
+    created: "2024-02-24T20:28:38.097338403Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7472,11 +7472,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-4.5.0.tgz
+    - https://sync667.github.io/charts/sentry-4.5.0.tgz
     version: 4.5.0
   - apiVersion: v2
     appVersion: 20.7.1
-    created: "2024-02-14T16:44:02.611409271Z"
+    created: "2024-02-24T20:28:38.085383591Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7504,11 +7504,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-4.4.0.tgz
+    - https://sync667.github.io/charts/sentry-4.4.0.tgz
     version: 4.4.0
   - apiVersion: v2
     appVersion: 20.7.1
-    created: "2024-02-14T16:44:02.599168174Z"
+    created: "2024-02-24T20:28:38.073310094Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7536,11 +7536,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-4.3.0.tgz
+    - https://sync667.github.io/charts/sentry-4.3.0.tgz
     version: 4.3.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:44:02.586554404Z"
+    created: "2024-02-24T20:28:38.061159684Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7568,11 +7568,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-4.2.0.tgz
+    - https://sync667.github.io/charts/sentry-4.2.0.tgz
     version: 4.2.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:44:02.573712337Z"
+    created: "2024-02-24T20:28:38.048471776Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7600,11 +7600,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-4.1.0.tgz
+    - https://sync667.github.io/charts/sentry-4.1.0.tgz
     version: 4.1.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:44:02.562322277Z"
+    created: "2024-02-24T20:28:38.037077102Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7632,11 +7632,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-4.0.0.tgz
+    - https://sync667.github.io/charts/sentry-4.0.0.tgz
     version: 4.0.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:44:02.550790881Z"
+    created: "2024-02-24T20:28:38.025779731Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7664,11 +7664,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-3.1.0.tgz
+    - https://sync667.github.io/charts/sentry-3.1.0.tgz
     version: 3.1.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:44:02.539191004Z"
+    created: "2024-02-24T20:28:38.014461394Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7696,11 +7696,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-3.0.1.tgz
+    - https://sync667.github.io/charts/sentry-3.0.1.tgz
     version: 3.0.1
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:44:02.527476641Z"
+    created: "2024-02-24T20:28:38.003078089Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7728,11 +7728,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-3.0.0.tgz
+    - https://sync667.github.io/charts/sentry-3.0.0.tgz
     version: 3.0.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:44:01.064943207Z"
+    created: "2024-02-24T20:28:36.529817804Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7760,11 +7760,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-2.2.0.tgz
+    - https://sync667.github.io/charts/sentry-2.2.0.tgz
     version: 2.2.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:44:01.053161461Z"
+    created: "2024-02-24T20:28:36.51849102Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7792,11 +7792,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-2.1.0.tgz
+    - https://sync667.github.io/charts/sentry-2.1.0.tgz
     version: 2.1.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:44:01.039751625Z"
+    created: "2024-02-24T20:28:36.507151143Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7824,11 +7824,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-2.0.1.tgz
+    - https://sync667.github.io/charts/sentry-2.0.1.tgz
     version: 2.0.1
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:44:01.027430623Z"
+    created: "2024-02-24T20:28:36.495855884Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7856,11 +7856,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-2.0.0.tgz
+    - https://sync667.github.io/charts/sentry-2.0.0.tgz
     version: 2.0.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:43:58.609250547Z"
+    created: "2024-02-24T20:28:34.286454717Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7888,11 +7888,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-1.3.1.tgz
+    - https://sync667.github.io/charts/sentry-1.3.1.tgz
     version: 1.3.1
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:43:58.598194603Z"
+    created: "2024-02-24T20:28:34.274352082Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7920,11 +7920,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-1.3.0.tgz
+    - https://sync667.github.io/charts/sentry-1.3.0.tgz
     version: 1.3.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:43:58.586940525Z"
+    created: "2024-02-24T20:28:34.263052349Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7952,11 +7952,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-1.2.0.tgz
+    - https://sync667.github.io/charts/sentry-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:43:58.575604201Z"
+    created: "2024-02-24T20:28:34.251454722Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7984,11 +7984,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-1.1.0.tgz
+    - https://sync667.github.io/charts/sentry-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:43:58.563600933Z"
+    created: "2024-02-24T20:28:34.239890755Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -8016,11 +8016,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-1.0.0.tgz
+    - https://sync667.github.io/charts/sentry-1.0.0.tgz
     version: 1.0.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:43:58.543138384Z"
+    created: "2024-02-24T20:28:34.218196467Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -8048,11 +8048,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-0.12.3.tgz
+    - https://sync667.github.io/charts/sentry-0.12.3.tgz
     version: 0.12.3
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:43:58.531917156Z"
+    created: "2024-02-24T20:28:34.206583272Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -8080,11 +8080,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-0.12.2.tgz
+    - https://sync667.github.io/charts/sentry-0.12.2.tgz
     version: 0.12.2
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:43:58.519745769Z"
+    created: "2024-02-24T20:28:34.195264402Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -8112,11 +8112,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-0.12.1.tgz
+    - https://sync667.github.io/charts/sentry-0.12.1.tgz
     version: 0.12.1
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:43:58.508688703Z"
+    created: "2024-02-24T20:28:34.182996494Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -8144,11 +8144,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-0.12.0.tgz
+    - https://sync667.github.io/charts/sentry-0.12.0.tgz
     version: 0.12.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:43:58.49720852Z"
+    created: "2024-02-24T20:28:34.171806722Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -8176,11 +8176,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-0.11.1.tgz
+    - https://sync667.github.io/charts/sentry-0.11.1.tgz
     version: 0.11.1
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:43:58.485878471Z"
+    created: "2024-02-24T20:28:34.160263755Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -8208,11 +8208,11 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-0.11.0.tgz
+    - https://sync667.github.io/charts/sentry-0.11.0.tgz
     version: 0.11.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:43:58.472785099Z"
+    created: "2024-02-24T20:28:34.148528011Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -8240,122 +8240,122 @@ entries:
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-0.10.0.tgz
+    - https://sync667.github.io/charts/sentry-0.10.0.tgz
     version: 0.10.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:43:58.552709433Z"
+    created: "2024-02-24T20:28:34.228009309Z"
     description: A Helm chart for Kubernetes
     digest: ccf7aabac486a68779d6564d90a875b45fefa4e4a9e8f86903355cf886b6a3aa
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-0.9.4.tgz
+    - https://sync667.github.io/charts/sentry-0.9.4.tgz
     version: 0.9.4
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:43:58.551919953Z"
+    created: "2024-02-24T20:28:34.227047546Z"
     description: A Helm chart for Kubernetes
     digest: 07b380bbb341bb276b962de0b3721c9142a97e9fd084a394fc4d9f5db75bceea
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-0.9.3.tgz
+    - https://sync667.github.io/charts/sentry-0.9.3.tgz
     version: 0.9.3
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:43:58.551118071Z"
+    created: "2024-02-24T20:28:34.22626634Z"
     description: A Helm chart for Kubernetes
     digest: a5a52cb5362e604215b1811e053a1b790d8f2e6c0c553a55d52f0750a6f63936
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-0.9.2.tgz
+    - https://sync667.github.io/charts/sentry-0.9.2.tgz
     version: 0.9.2
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:43:58.550297934Z"
+    created: "2024-02-24T20:28:34.225469163Z"
     description: A Helm chart for Kubernetes
     digest: 81e65b09754dea768122d4d619801bab77714f9c77520afbc1658c7bf68b563d
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-0.9.1.tgz
+    - https://sync667.github.io/charts/sentry-0.9.1.tgz
     version: 0.9.1
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:43:58.549264998Z"
+    created: "2024-02-24T20:28:34.224702193Z"
     description: A Helm chart for Kubernetes
     digest: 225f13adbe6a002014b135afc02b65771fbb5bbdf6f09e3179a408beb316846c
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-0.9.0.tgz
+    - https://sync667.github.io/charts/sentry-0.9.0.tgz
     version: 0.9.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:43:58.547874249Z"
+    created: "2024-02-24T20:28:34.22386381Z"
     description: A Helm chart for Kubernetes
     digest: aef5a5cd789251ab629d25d18ac94a7801e80fb99dde54dc98111e7547326ce8
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-0.8.0.tgz
+    - https://sync667.github.io/charts/sentry-0.8.0.tgz
     version: 0.8.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:43:58.547064221Z"
+    created: "2024-02-24T20:28:34.223093013Z"
     description: A Helm chart for Kubernetes
     digest: 2ced97e545a92598f9b3bc487aa53b7b4cd6df8ba2b97ffbce5807a6e0a641d0
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-0.7.0.tgz
+    - https://sync667.github.io/charts/sentry-0.7.0.tgz
     version: 0.7.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:43:58.5461241Z"
+    created: "2024-02-24T20:28:34.222260591Z"
     description: A Helm chart for Kubernetes
     digest: bf3b118679f72f65fa20120dfd4c1718b56694250e80dac285189a0073a2fbcc
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-0.6.1.tgz
+    - https://sync667.github.io/charts/sentry-0.6.1.tgz
     version: 0.6.1
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:43:58.545357483Z"
+    created: "2024-02-24T20:28:34.220423249Z"
     description: A Helm chart for Kubernetes
     digest: b24391c885cb84817b024df7feb81feb6d97443a1e7cf26d6a7a04cdd3e1af0c
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-0.6.0.tgz
+    - https://sync667.github.io/charts/sentry-0.6.0.tgz
     version: 0.6.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:43:58.544633536Z"
+    created: "2024-02-24T20:28:34.219668161Z"
     description: A Helm chart for Kubernetes
     digest: 476900c519773349f70e8d0171f870ba5ad7983c62fcc72ae3b7799948500f33
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-0.5.0.tgz
+    - https://sync667.github.io/charts/sentry-0.5.0.tgz
     version: 0.5.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:43:58.543906413Z"
+    created: "2024-02-24T20:28:34.218920327Z"
     description: A Helm chart for Kubernetes
     digest: 0da209fcf559a3aa66ef7715cf6327da2337e3739fff89e06a25d2e6a1488765
     name: sentry
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-0.2.1.tgz
+    - https://sync667.github.io/charts/sentry-0.2.1.tgz
     version: 0.2.1
   sentry-db:
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:44:03.365127705Z"
+    created: "2024-02-24T20:28:38.847436498Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -8382,11 +8382,11 @@ entries:
     name: sentry-db
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-db-0.9.4.tgz
+    - https://sync667.github.io/charts/sentry-db-0.9.4.tgz
     version: 0.9.4
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:44:03.354895013Z"
+    created: "2024-02-24T20:28:38.83744787Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -8413,11 +8413,11 @@ entries:
     name: sentry-db
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-db-0.9.3.tgz
+    - https://sync667.github.io/charts/sentry-db-0.9.3.tgz
     version: 0.9.3
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:44:03.344433929Z"
+    created: "2024-02-24T20:28:38.827754129Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -8444,11 +8444,11 @@ entries:
     name: sentry-db
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-db-0.9.2.tgz
+    - https://sync667.github.io/charts/sentry-db-0.9.2.tgz
     version: 0.9.2
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:44:03.334064899Z"
+    created: "2024-02-24T20:28:38.817892101Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -8475,11 +8475,11 @@ entries:
     name: sentry-db
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-db-0.9.1.tgz
+    - https://sync667.github.io/charts/sentry-db-0.9.1.tgz
     version: 0.9.1
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:44:03.323923078Z"
+    created: "2024-02-24T20:28:38.807462811Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -8506,11 +8506,11 @@ entries:
     name: sentry-db
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-db-0.9.0.tgz
+    - https://sync667.github.io/charts/sentry-db-0.9.0.tgz
     version: 0.9.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:44:03.313763254Z"
+    created: "2024-02-24T20:28:38.797070534Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -8537,11 +8537,11 @@ entries:
     name: sentry-db
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-db-0.8.0.tgz
+    - https://sync667.github.io/charts/sentry-db-0.8.0.tgz
     version: 0.8.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:44:03.303495095Z"
+    created: "2024-02-24T20:28:38.786697182Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -8568,11 +8568,11 @@ entries:
     name: sentry-db
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-db-0.7.0.tgz
+    - https://sync667.github.io/charts/sentry-db-0.7.0.tgz
     version: 0.7.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:44:03.293069318Z"
+    created: "2024-02-24T20:28:38.775655122Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -8599,11 +8599,11 @@ entries:
     name: sentry-db
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-db-0.6.1.tgz
+    - https://sync667.github.io/charts/sentry-db-0.6.1.tgz
     version: 0.6.1
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:44:03.282991772Z"
+    created: "2024-02-24T20:28:38.765979306Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -8630,11 +8630,11 @@ entries:
     name: sentry-db
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-db-0.6.0.tgz
+    - https://sync667.github.io/charts/sentry-db-0.6.0.tgz
     version: 0.6.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:44:03.27289675Z"
+    created: "2024-02-24T20:28:38.755746443Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -8661,11 +8661,11 @@ entries:
     name: sentry-db
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-db-0.5.0.tgz
+    - https://sync667.github.io/charts/sentry-db-0.5.0.tgz
     version: 0.5.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2024-02-14T16:44:03.262760988Z"
+    created: "2024-02-24T20:28:38.745086866Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -8692,12 +8692,12 @@ entries:
     name: sentry-db
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-db-0.2.1.tgz
+    - https://sync667.github.io/charts/sentry-db-0.2.1.tgz
     version: 0.2.1
   sentry-kubernetes:
   - apiVersion: v2
     appVersion: latest
-    created: "2024-02-14T16:44:03.365971278Z"
+    created: "2024-02-24T20:28:38.849106969Z"
     description: A Helm chart for sentry-kubernetes (https://github.com/getsentry/sentry-kubernetes)
     digest: 57760fc8ad6d26a6cf3d28b78bfb2bdb8d80f4cce2ff1d4e527c2b2f3d1437c9
     home: https://github.com/getsentry/sentry-kubernetes
@@ -8711,11 +8711,11 @@ entries:
     - https://github.com/sentry-kubernetes/charts
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-kubernetes-0.3.2.tgz
+    - https://sync667.github.io/charts/sentry-kubernetes-0.3.2.tgz
     version: 0.3.2
   - apiVersion: v2
     appVersion: latest
-    created: "2024-02-14T16:44:03.365701963Z"
+    created: "2024-02-24T20:28:38.848672252Z"
     description: A Helm chart for sentry-kubernetes (https://github.com/getsentry/sentry-kubernetes)
     digest: 233c575ab9e3eb3f63ee347cf32d3719b22e6546952a160cf253b32f895b5b83
     home: https://github.com/getsentry/sentry-kubernetes
@@ -8729,11 +8729,11 @@ entries:
     - https://github.com/sentry-kubernetes/charts
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-kubernetes-0.3.1.tgz
+    - https://sync667.github.io/charts/sentry-kubernetes-0.3.1.tgz
     version: 0.3.1
   - apiVersion: v2
     appVersion: latest
-    created: "2024-02-14T16:44:03.365429571Z"
+    created: "2024-02-24T20:28:38.848112057Z"
     description: A Helm chart for sentry-kubernetes (https://github.com/getsentry/sentry-kubernetes)
     digest: 727778ddeffa08ad086e07dc6014f13a905145cde1d257816df2fd52f1ec93db
     home: https://github.com/getsentry/sentry-kubernetes
@@ -8747,6 +8747,6 @@ entries:
     - https://github.com/sentry-kubernetes/charts
     type: application
     urls:
-    - https://sentry-kubernetes.github.io/charts/sentry-kubernetes-0.3.0.tgz
+    - https://sync667.github.io/charts/sentry-kubernetes-0.3.0.tgz
     version: 0.3.0
-generated: "2024-02-14T16:43:58.430093077Z"
+generated: "2024-02-24T20:28:34.106126256Z"
