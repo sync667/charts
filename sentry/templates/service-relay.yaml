@@ -16,6 +16,7 @@ metadata:
     heritage: "{{ .Release.Service }}"
 spec:
   type: {{ .Values.service.type }}
+  clusterIP: {{ .Values.service.clusterIP }}
   ports:
   - port: {{ template "relay.port" . }}
     targetPort: {{ template "relay.port" }}
