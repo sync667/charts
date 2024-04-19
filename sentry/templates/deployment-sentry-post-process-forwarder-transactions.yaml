@@ -1,3 +1,4 @@
+{{- if .Values.sentry.postProcessForwardTransactions.enabled }}
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -82,6 +83,9 @@ spec:
           - "--synchronize-commit-log-topic=snuba-transactions-commit-log"
           - "--synchronize-commit-group"
           - "transactions_group"
+          {{- if .Values.sentry.postProcessForwardTransactions.noStrictOffsetReset }}
+          - "--no-strict-offset-reset"
+          {{- end }}
         env:
 {{ include "sentry.env" . | indent 8 }}
 {{- if .Values.sentry.postProcessForwardTransactions.env }}
@@ -139,3 +143,4 @@ spec:
       {{- if .Values.sentry.postProcessForwardTransactions.priorityClassName }}
       priorityClassName: "{{ .Values.sentry.postProcessForwardTransactions.priorityClassName }}"
       {{- end }}
+{{- end }}
