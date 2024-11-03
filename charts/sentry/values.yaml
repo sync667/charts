@@ -363,6 +363,8 @@ sentry:
     enabled: true
     replicas: 1
     # concurrency: 4
+    # maxBatchTimeMs: 20000
+    # maxPollIntervalMs: 30000
     env: []
     resources: {}
     #  requests:
