@@ -418,7 +418,7 @@ Set Kafka Confluent host
 {{- define "sentry.kafka.host" -}}
 {{- if .Values.kafka.enabled -}}
 {{- template "sentry.kafka.fullname" . -}}
-{{- else if and (.Values.externalKafka) (not (kindIs "slice" .Values.externalKafka)) -}}
+{{- else if and (.Values.externalKafka) (not (.Values.externalKafka.cluster)) -}}
 {{ required "A valid .Values.externalKafka.host is required" .Values.externalKafka.host }}
 {{- end -}}
 {{- end -}}
@@ -429,7 +429,7 @@ Set Kafka Confluent port
 {{- define "sentry.kafka.port" -}}
 {{- if and (.Values.kafka.enabled) (.Values.kafka.service.ports.client) -}}
 {{- .Values.kafka.service.ports.client }}
-{{- else if and (.Values.externalKafka) (not (kindIs "slice" .Values.externalKafka)) -}}
+{{- else if and (.Values.externalKafka) (not (.Values.externalKafka.cluster)) -}}
 {{ required "A valid .Values.externalKafka.port is required" .Values.externalKafka.port }}
 {{- end -}}
 {{- end -}}
@@ -440,7 +440,7 @@ Set Kafka Confluent Controller port
 {{- define "sentry.kafka.controller_port" -}}
 {{- if and (.Values.kafka.enabled) (.Values.kafka.service.ports.controller ) -}}
 {{- .Values.kafka.service.ports.controller }}
-{{- else if and (.Values.externalKafka) (not (kindIs "slice" .Values.externalKafka)) -}}
+{{- else if and (.Values.externalKafka) (not (.Values.externalKafka.cluster)) -}}
 {{ required "A valid .Values.externalKafka.port is required" .Values.externalKafka.port }}
 {{- end -}}
 {{- end -}}
@@ -449,10 +449,10 @@ Set Kafka Confluent Controller port
 Set Kafka bootstrap servers string
 */}}
 {{- define "sentry.kafka.bootstrap_servers_string" -}}
-{{- if or (.Values.kafka.enabled) (not (kindIs "slice" .Values.externalKafka)) -}}
+{{- if or (.Values.kafka.enabled) (not (.Values.externalKafka.cluster)) -}}
 {{ printf "%s:%s" (include "sentry.kafka.host" .) (include "sentry.kafka.port" .) }}
 {{- else -}}
-{{- range $index, $elem := .Values.externalKafka -}}
+{{- range $index, $elem := .Values.externalKafka.cluster -}}
 {{- if $index -}},{{- end -}}{{ printf "%s:%s" $elem.host (toString $elem.port) }}
 {{- end -}}
 {{- end -}}
@@ -460,9 +460,9 @@ Set Kafka bootstrap servers string
 
 {{/*
 SASL auth setings for Kafka:
-* https://github.com/getsentry/snuba/blob/24.7.1/snuba/settings/__init__.py#L219-L229
-* https://github.com/getsentry/sentry/blob/24.7.1/src/sentry/utils/kafka_config.py#L9-L34
-* https://github.com/getsentry/sentry/blob/24.7.1/src/sentry/conf/server.py#L2827-L2836
+* https://github.com/getsentry/snuba/blob/24.9.0/snuba/settings/__init__.py#L220-L230
+* https://github.com/getsentry/sentry/blob/24.9.0/src/sentry/utils/kafka_config.py#L9-L34
+* https://github.com/getsentry/sentry/blob/24.9.0/src/sentry/conf/server.py#L2844-L2853
 */}}
 
 {{/*
