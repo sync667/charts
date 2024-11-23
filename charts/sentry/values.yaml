@@ -1811,6 +1811,8 @@ nginx:
   existingServerBlockConfigmap: '{{ template "sentry.fullname" . }}'
   resources: {}
   replicaCount: 1
+  nodeSelector: {}
+  # tolerations: []
   service:
     type: ClusterIP
     ports:
@@ -1938,6 +1940,8 @@ config:
 
 clickhouse:
   enabled: true
+  nodeSelector: {}
+  # tolerations: []
   clickhouse:
     replicas: "1"
     configmap:
@@ -2006,6 +2010,8 @@ zookeeper:
   enabled: true
   nameOverride: zookeeper-clickhouse
   replicaCount: 1
+  nodeSelector: {}
+  # tolerations: []
   ## When increasing the number of exceptions, you need to increase persistence.size
   # persistence:
   #   size: 8Gi
@@ -2143,6 +2149,8 @@ kafka:
     enabled: true
   controller:
     replicaCount: 3
+    nodeSelector: {}
+    # tolerations: []
     ## if the load on the kafka controller increases, resourcesPreset must be increased
     # resourcesPreset: small # small, medium, large, xlarge, 2xlarge
     ## if the load on the kafka controller increases, persistence.size must be increased
@@ -2214,6 +2222,8 @@ redis:
   enabled: true
   replica:
     replicaCount: 1
+    nodeSelector: {}
+    # tolerations: []
   auth:
     enabled: false
     sentinel: false
@@ -2226,6 +2236,8 @@ redis:
   master:
     persistence:
       enabled: true
+    nodeSelector: {}
+    # tolerations: []
   ## Use this to enable an extra service account
   # serviceAccount:
   #   create: false
@@ -2269,6 +2281,8 @@ postgresql:
   # primary:
   #   extendedConfiguration: |
   #     max_connections=100
+  #    nodeSelector: {}
+  #    tolerations: []
   ## When increasing the number of exceptions, you need to increase persistence.size
   # primary:
   #   persistence:
@@ -2382,6 +2396,8 @@ memcached:
     - "-m $(MEMCACHED_MEMORY_LIMIT)"
     - "-I $(MEMCACHED_MAX_ITEM_SIZE)"
   extraEnvVarsCM: "sentry-memcached"
+  nodeSelector: {}
+  # tolerations: []
 
 ## Prometheus Exporter / Metrics
 ##
