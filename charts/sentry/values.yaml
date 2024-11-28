@@ -2474,3 +2474,39 @@ revisionHistoryLimit: 10
 #   options: []
 
 extraManifests: []
+
+pgbouncer:
+  enabled: false
+  postgres:
+    cp_max: 10
+    cp_min: 5
+    host: ''
+    dbname: ''
+    user: ''
+    password: ''
+  image:
+    repository: "bitnami/pgbouncer"
+    tag: "1.23.1-debian-12-r5"
+    pullPolicy: IfNotPresent
+  replicas: 2
+  podDisruptionBudget:
+    enabled: true
+    # Define either 'minAvailable' or 'maxUnavailable', never both.
+    minAvailable: 1
+    # -- Maximum unavailable pods set in PodDisruptionBudget. If set, 'minAvailable' is ignored.
+    # maxUnavailable: 1
+  authType: "md5"
+  maxClientConn: "8192"
+  poolSize: "50"
+  poolMode: "transaction"
+  resources: {}
+  nodeSelector: {}
+  tolerations: []
+  affinity: {}
+  updateStrategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 1
+      maxSurge: 25%
+  priorityClassName: ''
+  topologySpreadConstraints: []
