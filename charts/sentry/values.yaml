@@ -6,6 +6,8 @@ ipv6: false
 global:
   nodeSelector: {}
   tolerations: []
+  sidecars: []
+  volumes: []
 
 user:
   create: true
@@ -1732,6 +1734,7 @@ symbolicator:
 
     # volumes: []
     # volumeMounts: []
+    # sidecars: []
 
   # TODO The cleanup cronjob is not yet implemented
   cleanup:
@@ -1739,6 +1742,8 @@ symbolicator:
     # podLabels: {}
     # affinity: {}
     # env: []
+    # volumes: []
+    # sidecars: []
 
 auth:
   register: true
@@ -2438,6 +2443,10 @@ metrics:
   affinity: {}
   securityContext: {}
   containerSecurityContext: {}
+
+  volumes: []
+  sidecars: []
+
   # schedulerName:
   # Optional extra labels for pod, i.e. redis-client: "true"
   # podLabels: {}
