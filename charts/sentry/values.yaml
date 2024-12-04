@@ -1115,6 +1115,7 @@ snuba:
     # queuedMinMessages: ""
     # volumes: []
     # volumeMounts: []
+    # noStrictOffsetReset: false
 
   metricsConsumer:
     enabled: true
