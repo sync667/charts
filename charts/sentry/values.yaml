@@ -1448,6 +1448,7 @@ snuba:
     env: []
     resources: {}
     affinity: {}
+    sidecars: []
     nodeSelector: {}
     securityContext: {}
     topologySpreadConstraints: []
@@ -1481,6 +1482,7 @@ snuba:
     env: []
     resources: {}
     affinity: {}
+    sidecars: []
     nodeSelector: {}
     securityContext: {}
     topologySpreadConstraints: []
