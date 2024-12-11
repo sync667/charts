@@ -1,5 +1,14 @@
 # Changelog
 
+## [26.8.1](https://github.com/sentry-kubernetes/charts/compare/sentry-v26.8.0...sentry-v26.8.1) (2024-12-11)
+
+
+### Bug Fixes
+
+* Add missing ingest for feedback events ([#1630](https://github.com/sentry-kubernetes/charts/issues/1630)) ([3882cae](https://github.com/sentry-kubernetes/charts/commit/3882cae9b5cde0591f87b9021e09ddbad27ca659))
+* missing flags required for Queues and Queries instrumentation ([#1622](https://github.com/sentry-kubernetes/charts/issues/1622)) ([a9b6b61](https://github.com/sentry-kubernetes/charts/commit/a9b6b61c842c5a92f0e011d3ae74c489bb83602c))
+* missing profilingFunctionsConsumer.sidecars ([#1627](https://github.com/sentry-kubernetes/charts/issues/1627)) ([bcbd6ed](https://github.com/sentry-kubernetes/charts/commit/bcbd6ed01e76d741ab500adf1aa6038f0b36f631))
+
 ## [26.8.0](https://github.com/sentry-kubernetes/charts/compare/sentry-v26.7.0...sentry-v26.8.0) (2024-12-04)
 
 
