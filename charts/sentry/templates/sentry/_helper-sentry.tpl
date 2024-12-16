@@ -161,6 +161,9 @@ sentry.conf.py: |-
 
   SENTRY_OPTIONS['system.secret-key'] = secret_key
 
+  # Set default for SAMPLED_DEFAULT_RATE:
+  SAMPLED_DEFAULT_RATE = {{ .Values.global.sampledDefaultRate | default 1.0 }}
+
   # Instruct Sentry that this install intends to be run by a single organization
   # and thus various UI optimizations should be enabled.
   SENTRY_SINGLE_ORGANIZATION = {{ if .Values.sentry.singleOrganization }}True{{ else }}False{{ end }}

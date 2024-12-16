@@ -4,6 +4,10 @@ prefix:
 ipv6: false
 
 global:
+
+  # Set SAMPLED_DEFAULT_RATE parameter for all projects
+  # sampledDefaultRate: 1.0
+
   nodeSelector: {}
   tolerations: []
   sidecars: []
