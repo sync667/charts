@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.14.0](https://github.com/sync667/charts/compare/clickhouse-v3.13.0...clickhouse-v3.14.0) (2024-12-19)
+
+
+### Features
+
+* **clickhouse:** allow overriding Clickhouse host ([#1356](https://github.com/sync667/charts/issues/1356)) ([bf0aaf3](https://github.com/sync667/charts/commit/bf0aaf346d5363fef2b12e2caee6f4b4750d45fd))
+* **clickhouse:** update ClickHouse version to 22.8.15.23 ([#1550](https://github.com/sync667/charts/issues/1550)) ([4271312](https://github.com/sync667/charts/commit/4271312e55b15f8f91bda7c70e3384042e602f5c))
+* **clickhouse:** update ClickHouse version to 23.3.19.32 ([#1552](https://github.com/sync667/charts/issues/1552)) ([05bcae5](https://github.com/sync667/charts/commit/05bcae567473f6d00c92fe3c4da84fc26fc26065))
+* update clickhouse chart with new image version and startup probes ([#1429](https://github.com/sync667/charts/issues/1429)) ([efdf1b6](https://github.com/sync667/charts/commit/efdf1b6dcc9215335fe0128b27187aa25bf9256f))
+
 ## [3.13.0](https://github.com/sentry-kubernetes/charts/compare/clickhouse-v3.12.0...clickhouse-v3.13.0) (2024-10-16)
 
 

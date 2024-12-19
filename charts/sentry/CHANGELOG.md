@@ -1,5 +1,88 @@
 # Changelog
 
+## [27.0.0](https://github.com/sync667/charts/compare/sentry-v26.9.0...sentry-v27.0.0) (2024-12-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* breaking change note
+* change default values again
+* deployment default values ([#1379](https://github.com/sync667/charts/issues/1379))
+
+### Features
+
+* add cache, logging, and kafka configuration options to sentry relay ([#1438](https://github.com/sync667/charts/issues/1438)) ([4a84c9f](https://github.com/sync667/charts/commit/4a84c9f5168969e044c0303ca81b60ce743303fd))
+* add configuration for noStrictOffsetReset ([#1620](https://github.com/sync667/charts/issues/1620)) ([234552e](https://github.com/sync667/charts/commit/234552e186a5b9ed814595ce83bc744034c93821))
+* add excludequeues option to sentry worker deployment ([#1441](https://github.com/sync667/charts/issues/1441)) ([78e80fb](https://github.com/sync667/charts/commit/78e80fb35677b1174e9d6d5dcbc37f58a32b86ac))
+* add existingSecretEnv support for web and worker deployments ([#1509](https://github.com/sync667/charts/issues/1509)) ([b170ac3](https://github.com/sync667/charts/commit/b170ac33a64e41a36bfeb416e05801ec9ae1365d))
+* add geoip support to sentry deployment ([#1516](https://github.com/sync667/charts/issues/1516)) ([4f2429b](https://github.com/sync667/charts/commit/4f2429b746fe13002c21abf233338a293acff1a0))
+* add global nodeSelector fallback for all deployments ([#1576](https://github.com/sync667/charts/issues/1576)) ([d6eec42](https://github.com/sync667/charts/commit/d6eec42b2c31f42a473d1241721ff3d64111400f))
+* add logging and worker settings to Sentry web deployment ([#1459](https://github.com/sync667/charts/issues/1459)) ([f0427e2](https://github.com/sync667/charts/commit/f0427e219773382eee4580bc4170d221f5150eee))
+* add logLevel and logFormat options for worker events and transactions ([#1542](https://github.com/sync667/charts/issues/1542)) ([bfbdd4d](https://github.com/sync667/charts/commit/bfbdd4d95bf15b18a72ed3d5af2baa363e98d6b6))
+* add logLevel option to ingestConsumerAttachments ([#1468](https://github.com/sync667/charts/issues/1468)) ([8005f0f](https://github.com/sync667/charts/commit/8005f0fcebf9856a3a29a99f596452a2c481a58c))
+* add logLevel, maxPollIntervalMs, inputBlockSize, maxBatchTimeMs ([#1403](https://github.com/sync667/charts/issues/1403)) ([78de49b](https://github.com/sync667/charts/commit/78de49b0f94633cf098aff320a79d7a48443b9a5))
+* add maxBatchTimeMs, maxPollIntervalMs for ingestConsumerAttachments ([#1591](https://github.com/sync667/charts/issues/1591)) ([72af218](https://github.com/sync667/charts/commit/72af2189d2249cc29de1442179ce2258da958e44))
+* add maxTasksPerChild option to Sentry worker deployments ([#1572](https://github.com/sync667/charts/issues/1572)) ([bc32900](https://github.com/sync667/charts/commit/bc329004f46f4af7ecf4a99f07e74e28dbee436e))
+* Add missing sidecar and global parameter for deployments & hooks ([#1230](https://github.com/sync667/charts/issues/1230)) ([ac8143f](https://github.com/sync667/charts/commit/ac8143fd1607c0493ea5c60940be3e649f6d613b))
+* add noStrictOffsetReset for ingest-consumer-attachments ([#1398](https://github.com/sync667/charts/issues/1398)) ([599294c](https://github.com/sync667/charts/commit/599294c33b9e5dfd076e581386a614f60fca38ef))
+* add optional relabeling configs to serviceMonitor object ([#1390](https://github.com/sync667/charts/issues/1390)) ([4f6e440](https://github.com/sync667/charts/commit/4f6e440c5c69ab728a2e9ac9a56b55ce274c5dc1))
+* add parameters for web workers TTL ([#1355](https://github.com/sync667/charts/issues/1355)) ([a1b218f](https://github.com/sync667/charts/commit/a1b218f69a8ea20a987e11a94dbf052d5a05d3a8))
+* add variable for SAMPLED_DEFAULT_RATE ([#1634](https://github.com/sync667/charts/issues/1634)) ([7910f9d](https://github.com/sync667/charts/commit/7910f9d0030b9c09206e01762e284003d9e61639))
+* allow customization of kafka configuration ([#1514](https://github.com/sync667/charts/issues/1514)) ([5f4009b](https://github.com/sync667/charts/commit/5f4009b97898bea66749436b792e4a9815df4be8))
+* allow users to specify Kafka topic name prefix in values.yaml ([#1544](https://github.com/sync667/charts/issues/1544)) ([5693406](https://github.com/sync667/charts/commit/569340626ce1587d48040a939b80ab74874fd022))
+* breaking change note ([9e5a15e](https://github.com/sync667/charts/commit/9e5a15e045fffcaccd88d5dc40c835c0083ffd47))
+* **clickhouse:** remove explicit imageVersion, inherit from chart ([#1561](https://github.com/sync667/charts/issues/1561)) ([4d003fd](https://github.com/sync667/charts/commit/4d003fdc350f1427d413285b94bf27fd13635239))
+* **clickhouse:** update ClickHouse chart to 3.12.0 ([#1556](https://github.com/sync667/charts/issues/1556)) ([07e73c1](https://github.com/sync667/charts/commit/07e73c1846c242f1babaa1ed47271588c9ec2daf))
+* disable Sentry anonymous usage statistics ([#1608](https://github.com/sync667/charts/issues/1608)) ([b679d97](https://github.com/sync667/charts/commit/b679d97e21e787857a7d1dc8fd7c84ceb759e083))
+* enhance logging options and add missing configuration parameters ([#1419](https://github.com/sync667/charts/issues/1419)) ([c666226](https://github.com/sync667/charts/commit/c666226346114998ff3c04a005d494e79bd7e13e))
+* enhance nginx config to handle disabled sentry relay ([#1430](https://github.com/sync667/charts/issues/1430)) ([4395dba](https://github.com/sync667/charts/commit/4395dba949ca41375bcf0c24435344406cc2bbb7))
+* Introduce global tolerations across all components ([#1580](https://github.com/sync667/charts/issues/1580)) ([7b48399](https://github.com/sync667/charts/commit/7b48399efe73cbb582b4df34068d0104ae3d969c))
+* offset-reset in ds ([#1533](https://github.com/sync667/charts/issues/1533)) ([0e3ef2d](https://github.com/sync667/charts/commit/0e3ef2db47c552fc80d07442263764a33c11c0d3))
+* pgbouncer for postgresql ([#1607](https://github.com/sync667/charts/issues/1607)) ([07157bd](https://github.com/sync667/charts/commit/07157bd61bff026cd80d912d16c140c9168d90d3))
+* **rabbitmq:** updated configuration to support Prometheus ([#1578](https://github.com/sync667/charts/issues/1578)) ([35f779a](https://github.com/sync667/charts/commit/35f779a0f18b2b9108470efc86403fa3c0eefae2))
+* recovery support multi hosts and ports of external kafka cluster ([#1588](https://github.com/sync667/charts/issues/1588)) ([889bd0d](https://github.com/sync667/charts/commit/889bd0d47235cb1ab5a7b52439f5b8df61026a03))
+* reintroduce "Extend Redis functionality" ([#1492](https://github.com/sync667/charts/issues/1492)) ([0b7a7b4](https://github.com/sync667/charts/commit/0b7a7b4c874bf4d4a460c88bb259cab0e025f7ee))
+* **sentry:** Add missing --no-strict-offset-reset and --auto-offset-reset for consumers ([#1535](https://github.com/sync667/charts/issues/1535)) ([8e0eea0](https://github.com/sync667/charts/commit/8e0eea0e5a3805c93d19ea93240d634953461cea))
+* **sentry:** add sasl auth for kafka and manage settings of connections ([#1557](https://github.com/sync667/charts/issues/1557)) ([f5a12e0](https://github.com/sync667/charts/commit/f5a12e04ee5ffa28f1d62bf6c7cb5c733b30c2b9))
+* **snuba:** add events_analytics_platform to settings ([#1540](https://github.com/sync667/charts/issues/1540)) ([b035b10](https://github.com/sync667/charts/commit/b035b10fb96d7081abcab8cf03a5f63e814a4871))
+* **symbolicator:** implement deployment and statefulset selection ([#1453](https://github.com/sync667/charts/issues/1453)) ([112c1b5](https://github.com/sync667/charts/commit/112c1b50456273163f6692d16787c4d04fe87cda))
+* update kafka for fix jmx-exporter scrape path ([#1477](https://github.com/sync667/charts/issues/1477)) ([a1c6250](https://github.com/sync667/charts/commit/a1c6250f70245f6514ddbe8e15741250bd6de1a2))
+* update sentry appVersion to 24.8.0 ([#1569](https://github.com/sync667/charts/issues/1569)) ([cb731e0](https://github.com/sync667/charts/commit/cb731e0cba028907fff29ed9e1525e544694ec32))
+* update sentry appVersion to 24.9.0 ([#1571](https://github.com/sync667/charts/issues/1571)) ([2a3a030](https://github.com/sync667/charts/commit/2a3a030ba3c61c6792712c4f637fe64d42a47fe2))
+* updated sentry to 24.7.1 ([#1454](https://github.com/sync667/charts/issues/1454)) ([7874e56](https://github.com/sync667/charts/commit/7874e569217e8469c5ce40087ecd656309a01bba))
+
+
+### Bug Fixes
+
+* Add missing ingest for feedback events ([#1630](https://github.com/sync667/charts/issues/1630)) ([3882cae](https://github.com/sync667/charts/commit/3882cae9b5cde0591f87b9021e09ddbad27ca659))
+* add topic partition counts in snuba config for correct ([#1489](https://github.com/sync667/charts/issues/1489)) ([2b44fb2](https://github.com/sync667/charts/commit/2b44fb2a449410a64aa4628e06fdd4e1cb1ae6aa))
+* change default values again ([a282b7e](https://github.com/sync667/charts/commit/a282b7e718c37c7d5d25aef19b6372ae00180ab0))
+* clickhouse replicas 1 ([d789562](https://github.com/sync667/charts/commit/d789562cbde4371b0057272976a981f66229ca50))
+* conditionally set auto-offset-reset for snuba subscription consumers ([#1538](https://github.com/sync667/charts/issues/1538)) ([db26b85](https://github.com/sync667/charts/commit/db26b853246e8f213d25f8c5041893e54a556630))
+* configuring kafka to use zookeeper uses only brokers, and service name in db-check is wrong ([#1494](https://github.com/sync667/charts/issues/1494)) ([34d4975](https://github.com/sync667/charts/commit/34d49752a9869372a69ce6add1011be1155ec254))
+* correct argument order of consumers ([#1522](https://github.com/sync667/charts/issues/1522)) ([6236a74](https://github.com/sync667/charts/commit/6236a74e70a78525a6030ade5cd3fc29b424fe59))
+* correct nginx.conf and ingress settings for sentry 24.7.1 and ([#1466](https://github.com/sync667/charts/issues/1466)) ([cfb90ef](https://github.com/sync667/charts/commit/cfb90efd05b7b1b03cf191df4324e2092f50e4dc))
+* correct order of arguments of sentry consumers ([#1463](https://github.com/sync667/charts/issues/1463)) ([#1464](https://github.com/sync667/charts/issues/1464)) ([2861efa](https://github.com/sync667/charts/commit/2861efa7192b8d8bc02835ef4ade16a21b2729f1))
+* correct podLabels type from list to map in values.yaml ([#1448](https://github.com/sync667/charts/issues/1448)) ([0c34ecc](https://github.com/sync667/charts/commit/0c34ecca3874c4ff1162c76457993bbe29238b96))
+* correct storageClass handling for geodata persistence ([#1524](https://github.com/sync667/charts/issues/1524)) ([b2f568d](https://github.com/sync667/charts/commit/b2f568d926771208256d47f03a2f39806ca94fe3))
+* del --max-batch-time-ms and enable maxBatchTimeMs in values ([#1412](https://github.com/sync667/charts/issues/1412)) ([086b477](https://github.com/sync667/charts/commit/086b47720b8fe0ee15fd65eafc5446dccc903366))
+* deployment default values ([#1379](https://github.com/sync667/charts/issues/1379)) ([72376fd](https://github.com/sync667/charts/commit/72376fd0aeb9d7fdb6b30a275ae59429bb88da12))
+* discord template typos ([#1408](https://github.com/sync667/charts/issues/1408)) ([044cc25](https://github.com/sync667/charts/commit/044cc254873911ae668e1c6bd1a34ac0883a1db8))
+* external redis functionality for relay ([#1548](https://github.com/sync667/charts/issues/1548)) ([6e71fc1](https://github.com/sync667/charts/commit/6e71fc169622c2e7e4934bfefd613f613a6c77d2))
+* invalid parameter in deployments ([#1446](https://github.com/sync667/charts/issues/1446)) ([dbafa66](https://github.com/sync667/charts/commit/dbafa66025fd9ecb3eb4b07a5df53f97221e77da))
+* missing flags required for Queues and Queries instrumentation ([#1622](https://github.com/sync667/charts/issues/1622)) ([a9b6b61](https://github.com/sync667/charts/commit/a9b6b61c842c5a92f0e011d3ae74c489bb83602c))
+* missing profilingFunctionsConsumer.sidecars ([#1627](https://github.com/sync667/charts/issues/1627)) ([bcbd6ed](https://github.com/sync667/charts/commit/bcbd6ed01e76d741ab500adf1aa6038f0b36f631))
+* reintroduced "Extend Redis functionality" ([#1492](https://github.com/sync667/charts/issues/1492)) broke S3 existing secret (from commit 0b7a7b4c) ([#1499](https://github.com/sync667/charts/issues/1499)) ([3eb75ef](https://github.com/sync667/charts/commit/3eb75ef861c68279975d2baa846bdf9b678474f3))
+* remove 'profiling-global-suspect-functions' as it is not supported on self hosted ([#1358](https://github.com/sync667/charts/issues/1358)) ([25004f6](https://github.com/sync667/charts/commit/25004f67e4cba551bb78d5c42af80d2e631c50de))
+* remove invalid --max-batch-size and --processes parameters from some consumers ([#1416](https://github.com/sync667/charts/issues/1416)) ([e42dc12](https://github.com/sync667/charts/commit/e42dc12e9bddee1e4d42db7173901ccde0cd3371))
+* revert ClickHouse replicas number ([#1392](https://github.com/sync667/charts/issues/1392)) ([ad6fc29](https://github.com/sync667/charts/commit/ad6fc293e627f78f15b960b8d8cbc0d606cd194f))
+* **snuba:** Add missing --no-strict-offset-reset for replacer ([#1559](https://github.com/sync667/charts/issues/1559)) ([0c415e7](https://github.com/sync667/charts/commit/0c415e704fb2f2cbb984d3e0d5e3b08895834436))
+* symbolicator storage class ([#1530](https://github.com/sync667/charts/issues/1530)) ([26cbaab](https://github.com/sync667/charts/commit/26cbaab28dcb0c95ac10723ed62b453c678b9787))
+* update geoip job hooks and volume handling ([#1529](https://github.com/sync667/charts/issues/1529)) ([886eb5f](https://github.com/sync667/charts/commit/886eb5fe8110bfb1a973740ca3a1a2e3e776c003))
+* update memcached chart to 7.4.8 ([#1352](https://github.com/sync667/charts/issues/1352)) ([a39ae5b](https://github.com/sync667/charts/commit/a39ae5b5252b0535f76ee1dbaccf723dbc1bd6fb))
+* Use correct syntax for envFrom in web and worker ([#1563](https://github.com/sync667/charts/issues/1563)) ([b834c0e](https://github.com/sync667/charts/commit/b834c0e4651633ca88e4c1839d60c0c69cf52087))
+* user-create-job hook does not create user ([5f4009b](https://github.com/sync667/charts/commit/5f4009b97898bea66749436b792e4a9815df4be8))
+
 ## [26.9.0](https://github.com/sentry-kubernetes/charts/compare/sentry-v26.8.1...sentry-v26.9.0) (2024-12-16)
 
 
