@@ -131,7 +131,7 @@ clickhouse:
   interserver_http_port: "9009"
   ##
   ## The instance number of Clickhouse
-  replicas: "3"
+  replicas: "1"
   ## Clickhouse image configuration.
   image: "clickhouse/clickhouse-server"
   imageVersion: ~
