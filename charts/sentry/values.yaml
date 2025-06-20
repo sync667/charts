@@ -837,6 +837,27 @@ sentry:
     # logLevel: "WARNING" # DEBUG|INFO|WARNING|ERROR|CRITICAL|FATAL
     # logFormat: "machine" # human|machine
 
+  subscriptionConsumerEapSpans:
+    enabled: true
+    replicas: 1
+    env: []
+    resources: {}
+    affinity: {}
+    nodeSelector: {}
+    securityContext: {}
+    topologySpreadConstraints: []
+    containerSecurityContext: {}
+    # tolerations: []
+    # podLabels: {}
+    livenessProbe:
+      enabled: true
+      initialDelaySeconds: 5
+      periodSeconds: 320
+    # volumes: []
+    # volumeMounts: []
+    # autoOffsetReset: "earliest"
+    # noStrictOffsetReset: false
+
   subscriptionConsumerEvents:
     enabled: true
     replicas: 1
@@ -945,6 +966,56 @@ sentry:
     resources: {}
     #  requests:
     #    cpu: 300m
+    #    memory: 500Mi
+    affinity: {}
+    nodeSelector: {}
+    securityContext: {}
+    containerSecurityContext: {}
+    # tolerations: []
+    # podLabels: {}
+    sidecars: []
+    topologySpreadConstraints: []
+    volumes: []
+    # volumeMounts: []
+    livenessProbe:
+      enabled: true
+      initialDelaySeconds: 5
+      periodSeconds: 320
+    # autoOffsetReset: "earliest"
+    # noStrictOffsetReset: false
+
+  processSegments:
+    enabled: true
+    replicas: 1
+    env: []
+    resources: {}
+    #  requests:
+    #    cpu: 150m
+    #    memory: 500Mi
+    affinity: {}
+    nodeSelector: {}
+    securityContext: {}
+    containerSecurityContext: {}
+    # tolerations: []
+    # podLabels: {}
+    sidecars: []
+    topologySpreadConstraints: []
+    volumes: []
+    # volumeMounts: []
+    livenessProbe:
+      enabled: true
+      initialDelaySeconds: 5
+      periodSeconds: 320
+    # autoOffsetReset: "earliest"
+    # noStrictOffsetReset: false
+
+  processSpans:
+    enabled: true
+    replicas: 1
+    env: []
+    resources: {}
+    #  requests:
+    #    cpu: 150m
     #    memory: 500Mi
     affinity: {}
     nodeSelector: {}
@@ -1115,6 +1186,39 @@ snuba:
     #     emptyDir:
     #       medium: Memory
 
+  eapItemsSpanConsumer:
+    enabled: true
+    replicas: 1
+    env: []
+    resources: {}
+    affinity: {}
+    nodeSelector: {}
+    securityContext: {}
+    topologySpreadConstraints: []
+    containerSecurityContext: {}
+    # tolerations: []
+    # podLabels: {}
+    # autoOffsetReset: "earliest"
+    livenessProbe:
+      enabled: true
+      initialDelaySeconds: 5
+      periodSeconds: 320
+    # maxBatchSize: ""
+    # processes: ""
+    # inputBlockSize: ""
+    # outputBlockSize: ""
+    maxBatchTimeMs: 750
+    # queuedMaxMessagesKbytes: ""
+    # queuedMinMessages: ""
+    # noStrictOffsetReset: false
+    # volumeMounts:
+    #   - mountPath: /dev/shm
+    #     name: dshm
+    # volumes:
+    #   - name: dshm
+    #     emptyDir:
+    #       medium: Memory
+
   outcomesConsumer:
     enabled: true
     replicas: 1
@@ -1227,6 +1331,27 @@ snuba:
     maxBatchTimeMs: 750
     # queuedMaxMessagesKbytes: ""
     # queuedMinMessages: ""
+    # noStrictOffsetReset: false
+
+  subscriptionConsumerEapSpans:
+    enabled: true
+    replicas: 1
+    env: []
+    resources: {}
+    affinity: {}
+    nodeSelector: {}
+    securityContext: {}
+    topologySpreadConstraints: []
+    containerSecurityContext: {}
+    # tolerations: []
+    # podLabels: {}
+    livenessProbe:
+      enabled: true
+      initialDelaySeconds: 5
+      periodSeconds: 320
+    # volumes: []
+    # volumeMounts: []
+    # autoOffsetReset: "earliest"
     # noStrictOffsetReset: false
 
   subscriptionConsumerEvents:
@@ -1661,7 +1786,7 @@ hooks:
     podAnnotations: {}
     resources:
       limits:
-        memory: 2048Mi
+        memory: 2560Mi
       requests:
         cpu: 300m
         memory: 2048Mi
@@ -1725,6 +1850,9 @@ mail:
 symbolicator:
   enabled: false
   api:
+    cleaner:
+      enabled: true
+      sleepInterval: 3600
     usedeployment: true  # Set true to use Deployment, false for StatefulSet
     persistence:
       enabled: true  # Set true for using PersistentVolumeClaim, false for emptyDir
@@ -1989,9 +2117,21 @@ config:
     # No YAML relay config given
   web:
     httpKeepalive: 15
+    httpChunkedInput: true
+    workers: 3
+    memoryReport: false
     maxRequests: 100000
     maxRequestsDelta: 500
     maxWorkerLifetime: 86400
+    thunderLock: true
+    logXForwardedFor: false
+    bufferSize: 32768
+    limitPost: 209715200
+    disableLogging: true
+    reloadOnRss: 600
+    ignoreSignpipe: true
+    ignoreWriteErrors: true
+    disableWriteException: true
 
 clickhouse:
   enabled: true
@@ -2113,6 +2253,7 @@ kafka:
       - name: outcomes-dlq
       - name: outcomes-billing
       - name: outcomes-billing-dlq
+      - name: ingest-spans
       - name: ingest-sessions
       - name: snuba-metrics-commit-log
         config:
@@ -2212,6 +2353,33 @@ kafka:
       - name: snuba-uptime-results
       - name: task-worker
       - name: snuba-ourlogs
+      - name: snuba-items
+      - name: taskworker
+      - name: taskworker-dlq
+      - name: taskworker-billing
+      - name: taskworker-billing-dlq
+      - name: taskworker-control
+      - name: taskworker-control-dlq
+      - name: taskworker-ingest
+      - name: taskworker-ingest-dlq
+      - name: taskworker-ingest-errors
+      - name: taskworker-ingest-errors-dlq
+      - name: taskworker-ingest-transactions
+      - name: taskworker-ingest-transactions-dlq
+      - name: taskworker-internal
+      - name: taskworker-internal-dlq
+      - name: taskworker-limited
+      - name: taskworker-limited-dlq
+      - name: taskworker-long
+      - name: taskworker-long-dlq
+      - name: taskworker-products
+      - name: taskworker-products-dlq
+      - name: taskworker-sentryapp
+      - name: taskworker-sentryapp-dlq
+      - name: taskworker-symbolication
+      - name: taskworker-symbolication-dlq
+      - name: taskworker-usage
+      - name: taskworker-usage-dlq
   listeners:
     client:
       protocol: "PLAINTEXT"
@@ -2230,7 +2398,8 @@ kafka:
     nodeSelector: {}
     # tolerations: []
     ## if the load on the kafka controller increases, resourcesPreset must be increased
-    # resourcesPreset: small # small, medium, large, xlarge, 2xlarge
+    # resourcesPreset: "small" # "small", "medium", "large", "xlarge", "2xlarge"
+    # More information: https://github.com/bitnami/charts/blob/main/bitnami/common/templates/_resources.tpl#L15
     ## if the load on the kafka controller increases, persistence.size must be increased
     # persistence:
     #   size: 8Gi

@@ -351,27 +351,27 @@ sentry.conf.py: |-
       # This is needed to prevent https://git.io/fj7Lw
       "uwsgi-socket": None,
       # Keep this between 15s-75s as that's what Relay supports
-      "http-keepalive": {{ .Values.config.web.httpKeepalive }},
-      "http-chunked-input": True,
+      "http-keepalive": {{ .Values.config.web.httpKeepalive | int }},
+      "http-chunked-input": {{ .Values.config.web.httpChunkedInput | ternary "True" "False" }},
       # the number of web workers
-      'workers': 3,
+      'workers': {{ .Values.config.web.workers | int }},
       # Turn off memory reporting
-      "memory-report": False,
+      "memory-report": {{ .Values.config.web.memoryReport | ternary "True" "False" }},
       # Some stuff so uwsgi will cycle workers sensibly
-      'max-requests': {{ .Values.config.web.maxRequests }},
-      'max-requests-delta': {{ .Values.config.web.maxRequestsDelta }},
-      'max-worker-lifetime': {{ .Values.config.web.maxWorkerLifetime }},
+      'max-requests': {{ .Values.config.web.maxRequests | int }},
+      'max-requests-delta': {{ .Values.config.web.maxRequestsDelta | int }},
+      'max-worker-lifetime': {{ .Values.config.web.maxWorkerLifetime | int }},
       # Duplicate options from sentry default just so we don't get
       # bit by sentry changing a default value that we depend on.
-      'thunder-lock': True,
-      'log-x-forwarded-for': False,
-      'buffer-size': 32768,
-      'limit-post': 209715200,
-      'disable-logging': True,
-      'reload-on-rss': 600,
-      'ignore-sigpipe': True,
-      'ignore-write-errors': True,
-      'disable-write-exception': True,
+      'thunder-lock': {{ .Values.config.web.thunderLock | ternary "True" "False" }},
+      'log-x-forwarded-for': {{ .Values.config.web.logXForwardedFor | ternary "True" "False" }},
+      'buffer-size': {{ .Values.config.web.bufferSize | int }},
+      'limit-post': {{ .Values.config.web.limitPost | int }},
+      'disable-logging': {{ .Values.config.web.disableLogging | ternary "True" "False" }},
+      'reload-on-rss': {{ .Values.config.web.reloadOnRss | int }},
+      'ignore-sigpipe': {{ .Values.config.web.ignoreSignpipe | ternary "True" "False" }},
+      'ignore-write-errors': {{ .Values.config.web.ignoreWriteErrors | ternary "True" "False" }},
+      'disable-write-exception': {{ .Values.config.web.disableWriteException | ternary "True" "False" }},
   }
 
   ###########
@@ -486,6 +486,8 @@ sentry.conf.py: |-
               "organizations:session-replay-slack-new-issue",
               "organizations:session-replay-issue-emails",
               "organizations:session-replay-event-linking",
+              "organizations:session-replay-enable-canvas",
+              "organizations:session-replay-enable-canvas-replayer",
               "organizations:session-replay-weekly-email",
               "organizations:session-replay-trace-table",
               "organizations:session-replay-rage-dead-selectors",
@@ -510,6 +512,7 @@ sentry.conf.py: |-
               {{- if .Values.sentry.features.enableFeedback }}
               "organizations:user-feedback-ui",
               "organizations:user-feedback-ingest",
+              "organizations:user-feedback-replay-clip",
               "organizations:feedback-ingest",
               "organizations:feedback-post-process-group",
               "organizations:feedback-visible",
@@ -518,23 +521,57 @@ sentry.conf.py: |-
               {{- if .Values.sentry.features.enableSpan }}
               "projects:span-metrics-extraction",
               "projects:span-metrics-extraction-addons",
-              "organizations:indexed-spans-extraction",
-              "organizations:starfish-browser-resource-module-image-view",
-              "organizations:starfish-browser-resource-module-ui",
-              "organizations:starfish-browser-webvitals",
-              "organizations:starfish-browser-webvitals-pageoverview-v2",
-              "organizations:starfish-browser-webvitals-use-backend-scores",
-              "organizations:performance-calculate-score-relay",
-              "organizations:starfish-browser-webvitals-replace-fid-with-inp",
+              # trace view
+              "organizations:trace-view-v1", # This one is required
+              "organizations:trace-view-load-more", # Optional
+              "organizations:trace-tabs-ui", # Optional
+              "organizations:trace-view-linked-traces", # Optional
+              "organizations:replay-trace-view-v1", # Optional
+              "organizations:trace-drawer-action", # Optional
+              "organizations:trace-spans-format", # Optional
+              # performance trace metrics
+              "organizations:performance-trace-explorer", # Required
+              "organizations:performance-trace-details", # Required
+              "organizations:performance-trace-explorer-sorting"
+              "organizations:performance-tracing-without-performance",
+              "organizations:performance-span-histogram-view", # Probably required
+              "organizations:performance-spans-new-ui", # Probably mandatory? I'm not sure
+              "organizations:issue-details-new-performance-trace-view", # Optional. So you can see performance from issue details page
+              # span-based metrics
+              "organizations:anomaly-detection-eap", # Enable anomaly detection feature for EAP spans
               "organizations:deprecate-fid-from-performance-score",
-              "organizations:performance-database-view",
-              "organizations:performance-screens-view",
-              "organizations:mobile-ttid-ttfd-contribution",
-              "organizations:starfish-mobile-appstart",
-              "organizations:standalone-span-ingestion",
+              "organizations:explore-multi-query", # Enable explore multi query page
+              "organizations:indexed-spans-extraction", # Mandatory! Starfish: extract metrics from the spans
+              "organizations:ingest-spans-in-eap", # Mandatory! Enable tagging span with whether or not we should ingest it in the EAP
+              "organizations:insights-addon-modules",
               "organizations:insights-entry-points",
               "organizations:insights-initial-modules",
-              "organizations:insights-addon-modules",
+              "organizations:insights-use-eap", # Make Insights modules use EAP instead of metrics
+              "organizations:mobile-ttid-ttfd-contribution",
+              "organizations:performance-calculate-score-relay",
+              "organizations:performance-database-view",
+              "organizations:performance-issues-spans",
+              "organizations:performance-screens-view",
+              "organizations:performance-transaction-summary-eap",
+              "organizations:standalone-span-ingestion",
+              "organizations:span-stats",
+              "organizations:starfish-browser-resource-module-image-view",
+              "organizations:starfish-browser-resource-module-ui",
+              "organizations:starfish-browser-webvitals-pageoverview-v2",
+              "organizations:starfish-browser-webvitals-replace-fid-with-inp",
+              "organizations:starfish-browser-webvitals-use-backend-scores",
+              "organizations:starfish-browser-webvitals",
+              "organizations:starfish-mobile-appstart",
+              "organizations:transaction-metrics-extraction", # Extraction metrics for transactions during ingestion.
+              "organizations:indexed-spans-extraction", # Starfish: extract metrics from the spans
+              "organizations:visibility-explore-view", # Enable the new explore page
+              "organizations:visibility-explore-admin", # Enable admin features on the new explore page
+              "organizations:visibility-explore-equations", # Enable equations feature on the new explore page
+              "organizations:visibility-explore-progressive-loading",
+              "organizations:visibility-explore-skip-preflight",
+              "organizations:visibility-explore-tabs", # Enable merging all the modes into tabs
+              "organizations:visibility-explore-range-high", # Enable high date range options on new explore page
+              "organizations:visibility-explore-view", # Mandatory! Enable the new explore page
               {{ end -}}
 
               "organizations:dashboards-mep",

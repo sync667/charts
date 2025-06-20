@@ -1,5 +1,46 @@
 # Changelog
 
+## [26.19.0](https://github.com/sentry-kubernetes/charts/compare/sentry-v26.18.0...sentry-v26.19.0) (2025-06-14)
+
+
+### Features
+
+* update sentry appVersion to v25.5.1 ([#1782](https://github.com/sentry-kubernetes/charts/issues/1782)) ([9e9a05f](https://github.com/sentry-kubernetes/charts/commit/9e9a05f1930bd3e58c4fa94eefc5dd78ca9c72e3))
+
+
+### Bug Fixes
+
+* clickhouse env. ([#1786](https://github.com/sentry-kubernetes/charts/issues/1786)) ([3f13f00](https://github.com/sentry-kubernetes/charts/commit/3f13f00882c339f65500c50a96272db41be5b365))
+
+## [26.18.0](https://github.com/sentry-kubernetes/charts/compare/sentry-v26.17.1...sentry-v26.18.0) (2025-05-21)
+
+
+### Features
+
+* add more values for sentry ([#1765](https://github.com/sentry-kubernetes/charts/issues/1765)) ([cdd0905](https://github.com/sentry-kubernetes/charts/commit/cdd0905581c01309caee734e9f778add0cf3cf4c))
+
+## [26.17.1](https://github.com/sentry-kubernetes/charts/compare/sentry-v26.17.0...sentry-v26.17.1) (2025-05-12)
+
+
+### Bug Fixes
+
+* fix typo in value of argument '--consumer-group' for ([#1758](https://github.com/sentry-kubernetes/charts/issues/1758)) ([15d1811](https://github.com/sentry-kubernetes/charts/commit/15d1811b088b26f20215970d53622e59d4973728))
+
+## [26.17.0](https://github.com/sentry-kubernetes/charts/compare/sentry-v26.16.0...sentry-v26.17.0) (2025-05-09)
+
+
+### Features
+
+* update sentry appVersion to v25.4.0 ([#1754](https://github.com/sentry-kubernetes/charts/issues/1754)) ([b34f26d](https://github.com/sentry-kubernetes/charts/commit/b34f26d95b29970152b33c45dbb9ee94fe3a5515))
+
+## [26.16.0](https://github.com/sentry-kubernetes/charts/compare/sentry-v26.15.1...sentry-v26.16.0) (2025-04-15)
+
+
+### Features
+
+* add clickhouse ssl config ([#1671](https://github.com/sentry-kubernetes/charts/issues/1671)) ([a48f91c](https://github.com/sentry-kubernetes/charts/commit/a48f91c8218cb9f9363c249a02407e776f5ced1c))
+* update appVersion to 25.3.0 ([#1740](https://github.com/sentry-kubernetes/charts/issues/1740)) ([9ed13bb](https://github.com/sentry-kubernetes/charts/commit/9ed13bbd7b604681ee8079bb53d427376552a40a))
+
 ## [26.15.1](https://github.com/sentry-kubernetes/charts/compare/sentry-v26.15.0...sentry-v26.15.1) (2025-03-06)
 
 
