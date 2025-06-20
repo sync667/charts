@@ -1,5 +1,31 @@
 # Changelog
 
+## [5.0.0](https://github.com/sync667/charts/compare/clickhouse-v4.0.1...clickhouse-v5.0.0) (2025-06-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* **clickhouse:** replace external exporter with embedded ClickHouse exporter ([#1710](https://github.com/sync667/charts/issues/1710))
+
+### Features
+
+* bump clickhouse to 23.8 ([#1649](https://github.com/sync667/charts/issues/1649)) ([02d0083](https://github.com/sync667/charts/commit/02d00839de982d61d18f9d2655f3349a4f981a6b))
+* **clickhouse:** allow overriding Clickhouse host ([#1356](https://github.com/sync667/charts/issues/1356)) ([bf0aaf3](https://github.com/sync667/charts/commit/bf0aaf346d5363fef2b12e2caee6f4b4750d45fd))
+* **clickhouse:** update ClickHouse version to 22.8.15.23 ([#1550](https://github.com/sync667/charts/issues/1550)) ([4271312](https://github.com/sync667/charts/commit/4271312e55b15f8f91bda7c70e3384042e602f5c))
+* **clickhouse:** update ClickHouse version to 23.3.19.32 ([#1552](https://github.com/sync667/charts/issues/1552)) ([05bcae5](https://github.com/sync667/charts/commit/05bcae567473f6d00c92fe3c4da84fc26fc26065))
+* update clickhouse chart with new image version and startup probes ([#1429](https://github.com/sync667/charts/issues/1429)) ([efdf1b6](https://github.com/sync667/charts/commit/efdf1b6dcc9215335fe0128b27187aa25bf9256f))
+
+
+### Bug Fixes
+
+* **clickhouse-chart:** correct placement of internal_replication ([#1633](https://github.com/sync667/charts/issues/1633)) ([5bb3e6c](https://github.com/sync667/charts/commit/5bb3e6c3bd742f4d7180feeef15d1243216fda82))
+* **clickhouse:** add missing configOverride in statefulset-clickhouse-replica [#1709](https://github.com/sync667/charts/issues/1709) ([#1756](https://github.com/sync667/charts/issues/1756)) ([52c6283](https://github.com/sync667/charts/commit/52c6283554d2477d3936b80f3a24ad3fbe174c46))
+
+
+### Miscellaneous Chores
+
+* **clickhouse:** replace external exporter with embedded ClickHouse exporter ([#1710](https://github.com/sync667/charts/issues/1710)) ([45128a9](https://github.com/sync667/charts/commit/45128a9a2a4b9770f8414206a17724cbb1715928))
+
 ## [4.0.1](https://github.com/sentry-kubernetes/charts/compare/clickhouse-v4.0.0...clickhouse-v4.0.1) (2025-05-11)
 
 
